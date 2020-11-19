@@ -1,0 +1,3 @@
+# based on https://jnavila.github.io/plotkicadsch/
+*.pro filter=kicad_project
+*.sch filter=kicad_sch
