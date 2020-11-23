@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -16,18 +16,18 @@ $EndDescr
 $Comp
 L ProjectLibrary:BQ24092DGQR IC1
 U 1 1 5FB42655
-P 3300 6400
-F 0 "IC1" H 4000 6665 50  0000 C CNN
-F 1 "BQ24092DGQR" H 4000 6574 50  0000 C CNN
-F 2 "SOP50P490X110-11N" H 4550 6500 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/BQ24092" H 4550 6400 50  0001 L CNN
-F 4 "1A, Single-Input, Single-Cell Li-Ion Battery Charger with Operation Over JEITA and 10k NTC" H 4550 6300 50  0001 L CNN "Description"
-F 5 "1.1" H 4550 6200 50  0001 L CNN "Height"
-F 6 "595-BQ24092DGQR" H 4550 6100 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ24092DGQR?qs=C44r%252BX3hXgKGrpCEuObqhg%3D%3D" H 4550 6000 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 4550 5900 50  0001 L CNN "Manufacturer_Name"
-F 9 "BQ24092DGQR" H 4550 5800 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3300 6400
+P 7900 5500
+F 0 "IC1" H 8600 5765 50  0000 C CNN
+F 1 "BQ24092DGQR" H 8600 5674 50  0000 C CNN
+F 2 "SOP50P490X110-11N" H 9150 5600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/BQ24092" H 9150 5500 50  0001 L CNN
+F 4 "1A, Single-Input, Single-Cell Li-Ion Battery Charger with Operation Over JEITA and 10k NTC" H 9150 5400 50  0001 L CNN "Description"
+F 5 "1.1" H 9150 5300 50  0001 L CNN "Height"
+F 6 "595-BQ24092DGQR" H 9150 5200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ24092DGQR?qs=C44r%252BX3hXgKGrpCEuObqhg%3D%3D" H 9150 5100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 9150 5000 50  0001 L CNN "Manufacturer_Name"
+F 9 "BQ24092DGQR" H 9150 4900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7900 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -50,35 +50,35 @@ $EndComp
 $Comp
 L ProjectLibrary:SHT31-ARP-B2.5kS IC3
 U 1 1 5FBA3C37
-P 5200 6550
-F 0 "IC3" H 5800 6815 50  0000 C CNN
-F 1 "SHT31-ARP-B2.5kS" H 5800 6724 50  0000 C CNN
-F 2 "SON50P250X250X100-9N-D" H 6250 6650 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/SHT31-ARP-B2.5kS.pdf" H 6250 6550 50  0001 L CNN
-F 4 "Board Mount Humidity Sensors +/- 2%RH 14 bit Resolution" H 6250 6450 50  0001 L CNN "Description"
-F 5 "1" H 6250 6350 50  0001 L CNN "Height"
-F 6 "403-SHT31-ARP-B" H 6250 6250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT31-ARP-B25kS?qs=y6ZabgHbY%252BxqV2K0yYcGiA%3D%3D" H 6250 6150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Sensirion" H 6250 6050 50  0001 L CNN "Manufacturer_Name"
-F 9 "SHT31-ARP-B2.5kS" H 6250 5950 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5200 6550
+P 9800 5650
+F 0 "IC3" H 10400 5915 50  0000 C CNN
+F 1 "SHT31-ARP-B2.5kS" H 10400 5824 50  0000 C CNN
+F 2 "SON50P250X250X100-9N-D" H 10850 5750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SHT31-ARP-B2.5kS.pdf" H 10850 5650 50  0001 L CNN
+F 4 "Board Mount Humidity Sensors +/- 2%RH 14 bit Resolution" H 10850 5550 50  0001 L CNN "Description"
+F 5 "1" H 10850 5450 50  0001 L CNN "Height"
+F 6 "403-SHT31-ARP-B" H 10850 5350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT31-ARP-B25kS?qs=y6ZabgHbY%252BxqV2K0yYcGiA%3D%3D" H 10850 5250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Sensirion" H 10850 5150 50  0001 L CNN "Manufacturer_Name"
+F 9 "SHT31-ARP-B2.5kS" H 10850 5050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9800 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L ProjectLibrary:LTR-329ALS-01 U1
 U 1 1 5FBA3CE3
-P 2000 6950
-F 0 "U1" H 2500 7215 50  0000 C CNN
-F 1 "LTR-329ALS-01" H 2500 7124 50  0000 C CNN
-F 2 "LTR329ALS01" H 2850 7050 50  0001 L CNN
-F 3 "" H 2850 6950 50  0001 L CNN
-F 4 "Ambient Light Sensors Ambient Light Photo Sensor" H 2850 6850 50  0001 L CNN "Description"
-F 5 "0" H 2850 6750 50  0001 L CNN "Height"
-F 6 "859-LTR-329ALS-01" H 2850 6650 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTR-329ALS-01?qs=Ml%2FaxAEbwm8eHg8LIDPUrw%3D%3D" H 2850 6550 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Lite-On" H 2850 6450 50  0001 L CNN "Manufacturer_Name"
-F 9 "LTR-329ALS-01" H 2850 6350 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2000 6950
+P 6600 6050
+F 0 "U1" H 7100 6315 50  0000 C CNN
+F 1 "LTR-329ALS-01" H 7100 6224 50  0000 C CNN
+F 2 "LTR329ALS01" H 7450 6150 50  0001 L CNN
+F 3 "" H 7450 6050 50  0001 L CNN
+F 4 "Ambient Light Sensors Ambient Light Photo Sensor" H 7450 5950 50  0001 L CNN "Description"
+F 5 "0" H 7450 5850 50  0001 L CNN "Height"
+F 6 "859-LTR-329ALS-01" H 7450 5750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTR-329ALS-01?qs=Ml%2FaxAEbwm8eHg8LIDPUrw%3D%3D" H 7450 5650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lite-On" H 7450 5550 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTR-329ALS-01" H 7450 5450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6600 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -432,4 +432,14 @@ Wire Wire Line
 	6200 1500 6200 1400
 Wire Wire Line
 	5850 1500 5850 1400
+$Sheet
+S 1800 5000 1100 750 
+U 5FC321F3
+F0 "Display" 50
+F1 "Display.sch" 50
+F2 "DISP_BS" O R 2900 5250 50 
+F3 "DISP_CS" I R 2900 5350 50 
+F4 "DISP_SCK" I R 2900 5450 50 
+F5 "DISP_MOSI" I R 2900 5550 50 
+$EndSheet
 $EndSCHEMATC
