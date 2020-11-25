@@ -442,4 +442,75 @@ F3 "DISP_CS" I R 2900 5350 50
 F4 "DISP_SCK" I R 2900 5450 50 
 F5 "DISP_MOSI" I R 2900 5550 50 
 $EndSheet
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FBE78FD
+P 900 2750
+F 0 "H1" H 1000 2799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1000 2708 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 900 2750 50  0001 C CNN
+F 3 "~" H 900 2750 50  0001 C CNN
+	1    900  2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FBEA23E
+P 1900 2750
+F 0 "H2" H 2000 2799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2000 2708 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1900 2750 50  0001 C CNN
+F 3 "~" H 1900 2750 50  0001 C CNN
+	1    1900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5FBEAEC2
+P 1900 3150
+F 0 "H4" H 1800 3107 50  0000 R CNN
+F 1 "MountingHole_Pad" H 1800 3198 50  0000 R CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1900 3150 50  0001 C CNN
+F 3 "~" H 1900 3150 50  0001 C CNN
+	1    1900 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FBE92B5
+P 900 3150
+F 0 "H3" H 800 3107 50  0000 R CNN
+F 1 "MountingHole_Pad" H 800 3198 50  0000 R CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 900 3150 50  0001 C CNN
+F 3 "~" H 900 3150 50  0001 C CNN
+	1    900  3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  3050 900  2950
+Wire Wire Line
+	1900 2850 1900 2950
+Wire Wire Line
+	1900 2950 900  2950
+Connection ~ 1900 2950
+Wire Wire Line
+	1900 2950 1900 3050
+Connection ~ 900  2950
+Wire Wire Line
+	900  2950 900  2850
+Wire Wire Line
+	900  2950 600  2950
+$Comp
+L power:GND #PWR?
+U 1 1 5FBF5B51
+P 600 3150
+F 0 "#PWR?" H 600 2900 50  0001 C CNN
+F 1 "GND" H 605 2977 50  0000 C CNN
+F 2 "" H 600 3150 50  0001 C CNN
+F 3 "" H 600 3150 50  0001 C CNN
+	1    600  3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  2950 600  3150
 $EndSCHEMATC
