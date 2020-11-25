@@ -42,4 +42,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/SML-D12Y1WT86.pdf
 $ENDCMP
 #
+$CMP S2B-XH-A_LF__SN_
+D XH-2.5mm Header side entry 2 way JST XH Series, Series Number S2B, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A
+K
+F http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+$ENDCMP
+#
 #End Doc Library
