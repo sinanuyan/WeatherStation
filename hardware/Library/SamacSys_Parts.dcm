@@ -48,4 +48,10 @@ K
 F http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
 $ENDCMP
 #
+$CMP SI1308EDL-T1-BE3
+D MOSFET 30V N-CHANNEL (D-S)
+K
+F https://www.mouser.es/datasheet/2/427/si1308edl-1764588.pdf
+$ENDCMP
+#
 #End Doc Library
