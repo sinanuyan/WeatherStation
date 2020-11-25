@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -13,23 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ProjectLibrary:BQ24092DGQR IC1
-U 1 1 5FB42655
-P 7900 5500
-F 0 "IC1" H 8600 5765 50  0000 C CNN
-F 1 "BQ24092DGQR" H 8600 5674 50  0000 C CNN
-F 2 "SOP50P490X110-11N" H 9150 5600 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/BQ24092" H 9150 5500 50  0001 L CNN
-F 4 "1A, Single-Input, Single-Cell Li-Ion Battery Charger with Operation Over JEITA and 10k NTC" H 9150 5400 50  0001 L CNN "Description"
-F 5 "1.1" H 9150 5300 50  0001 L CNN "Height"
-F 6 "595-BQ24092DGQR" H 9150 5200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ24092DGQR?qs=C44r%252BX3hXgKGrpCEuObqhg%3D%3D" H 9150 5100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 9150 5000 50  0001 L CNN "Manufacturer_Name"
-F 9 "BQ24092DGQR" H 9150 4900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    7900 5500
-	1    0    0    -1  
-$EndComp
 $Comp
 L ProjectLibrary:ESP32-D0WD-V3 IC2
 U 1 1 5FB42486
@@ -513,4 +496,18 @@ F 3 "" H 600 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	600  2950 600  3150
+$Sheet
+S 4100 4700 1300 900 
+U 5FBFD530
+F0 "PowerSupply" 50
+F1 "PowerSupply.sch" 50
+F2 "PWR_IN" I L 4100 4900 50 
+F3 "I_SET_BAT" I R 5400 4850 50 
+F4 "TEMP" I R 5400 5500 50 
+F5 "PWR_OUT" I R 5400 5150 50 
+$EndSheet
+Text Notes 5450 4800 0    50   ~ 0
+High: 500 mA\nLow: prgrammed charge\nFloating: 100 mA
+Text Notes 5450 5050 0    50   ~ 0
+4.2 V output
 $EndSCHEMATC
