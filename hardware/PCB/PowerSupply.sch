@@ -145,15 +145,15 @@ F 3 "" H 3950 2400 50  0001 C CNN
 	1    3950 2400
 	1    0    0    -1  
 $EndComp
-Text HLabel 7300 1650 2    50   Input ~ 0
+Text HLabel 4950 1650 2    50   Input ~ 0
 I_SET_BAT
-Text HLabel 7300 1450 2    50   Input ~ 0
+Text HLabel 4800 1450 2    50   Input ~ 0
 TEMP
 Wire Wire Line
 	3250 1750 3150 1750
 Wire Wire Line
 	4650 1550 4800 1550
-Text HLabel 7300 1350 2    50   Input ~ 0
+Text HLabel 9850 1350 2    50   Input ~ 0
 PWR_OUT
 $Comp
 L ProjectLibrary:SML-D12Y1WT86 LED?
@@ -251,16 +251,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FC2E9CD
-P 5750 2450
-F 0 "#PWR?" H 5750 2200 50  0001 C CNN
-F 1 "GND" H 5755 2277 50  0000 C CNN
-F 2 "" H 5750 2450 50  0001 C CNN
-F 3 "" H 5750 2450 50  0001 C CNN
-	1    5750 2450
+P 5750 3200
+F 0 "#PWR?" H 5750 2950 50  0001 C CNN
+F 1 "GND" H 5755 3027 50  0000 C CNN
+F 2 "" H 5750 3200 50  0001 C CNN
+F 3 "" H 5750 3200 50  0001 C CNN
+	1    5750 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 2300 5750 2150
 Wire Wire Line
 	5750 1850 5750 1350
 Connection ~ 5750 1350
@@ -269,36 +267,179 @@ Wire Wire Line
 $Comp
 L ProjectLibrary:S2B-XH-A_LF__SN_ J?
 U 1 1 5FC2F7E2
-P 6350 2200
-F 0 "J?" H 6978 2196 50  0000 L CNN
-F 1 "S2B-XH-A_LF__SN_" H 6978 2105 50  0000 L CNN
-F 2 "SHDRRA2W80P0X250_1X2_740X1150X610P" H 7000 2300 50  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 7000 2200 50  0001 L CNN
-F 4 "XH-2.5mm Header side entry 2 way JST XH Series, Series Number S2B, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" H 7000 2100 50  0001 L CNN "Description"
-F 5 "6.1" H 7000 2000 50  0001 L CNN "Height"
-F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 7000 1900 50  0001 L CNN "Manufacturer_Name"
-F 7 "S2B-XH-A(LF)(SN)" H 7000 1800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "S2B-XH-A(LF)(SN)" H 7000 1700 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/s2b-xh-a-lf-sn/jst-manufacturing" H 7000 1600 50  0001 L CNN "Arrow Price/Stock"
-F 10 "" H 7000 1500 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 7000 1400 50  0001 L CNN "Mouser Price/Stock"
-	1    6350 2200
+P 6200 2400
+F 0 "J?" H 6828 2396 50  0000 L CNN
+F 1 "S2B-XH-A_LF__SN_" H 6828 2305 50  0000 L CNN
+F 2 "SHDRRA2W80P0X250_1X2_740X1150X610P" H 6850 2500 50  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 6850 2400 50  0001 L CNN
+F 4 "XH-2.5mm Header side entry 2 way JST XH Series, Series Number S2B, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" H 6850 2300 50  0001 L CNN "Description"
+F 5 "6.1" H 6850 2200 50  0001 L CNN "Height"
+F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 6850 2100 50  0001 L CNN "Manufacturer_Name"
+F 7 "S2B-XH-A(LF)(SN)" H 6850 2000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "S2B-XH-A(LF)(SN)" H 6850 1900 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/s2b-xh-a-lf-sn/jst-manufacturing" H 6850 1800 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 6850 1700 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 6850 1600 50  0001 L CNN "Mouser Price/Stock"
+	1    6200 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L ProjectLibrary:TPS62291DRVR IC?
+U 1 1 5FC09EEE
+P 8250 1350
+F 0 "IC?" H 8850 1615 50  0000 C CNN
+F 1 "TPS62291DRVR" H 8850 1524 50  0000 C CNN
+F 2 "SON65P200X200X80-7N" H 9300 1450 50  0001 L CNN
+F 3 "https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63" H 9300 1350 50  0001 L CNN
+F 4 "Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter" H 9300 1250 50  0001 L CNN "Description"
+F 5 "0.8" H 9300 1150 50  0001 L CNN "Height"
+F 6 "595-TPS62291DRVR" H 9300 1050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62291DRVR?qs=WxL8HmPi5r5oemxPY8jLwQ%3D%3D" H 9300 950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 9300 850 50  0001 L CNN "Manufacturer_Name"
+F 9 "TPS62291DRVR" H 9300 750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8250 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC12B1D
+P 6550 2250
+F 0 "#PWR?" H 6550 2000 50  0001 C CNN
+F 1 "GND" H 6555 2077 50  0000 C CNN
+F 2 "" H 6550 2250 50  0001 C CNN
+F 3 "" H 6550 2250 50  0001 C CNN
+	1    6550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FC139FA
+P 6550 1750
+F 0 "C?" H 6665 1796 50  0000 L CNN
+F 1 "10u" H 6665 1705 50  0000 L CNN
+F 2 "" H 6588 1600 50  0001 C CNN
+F 3 "~" H 6550 1750 50  0001 C CNN
+	1    6550 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 2300 5750 2300
+	6550 2250 6550 2000
 Wire Wire Line
-	5750 2300 5750 2450
+	6550 1600 6550 1450
+Wire Wire Line
+	6550 1450 6900 1450
+Wire Wire Line
+	7050 1350 6850 1350
+Wire Wire Line
+	6850 1350 6850 2000
+Wire Wire Line
+	6850 2000 6550 2000
+Connection ~ 6550 2000
+Wire Wire Line
+	6550 2000 6550 1900
+Wire Wire Line
+	7050 1550 6900 1550
+Wire Wire Line
+	6900 1550 6900 1450
+Connection ~ 6900 1450
+Wire Wire Line
+	6900 1450 7050 1450
+Wire Wire Line
+	8250 1450 8450 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5FC1A4A2
+P 8450 2600
+F 0 "#PWR?" H 8450 2350 50  0001 C CNN
+F 1 "GND" H 8455 2427 50  0000 C CNN
+F 2 "" H 8450 2600 50  0001 C CNN
+F 3 "" H 8450 2600 50  0001 C CNN
+	1    8450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC1D2CA
+P 7650 2250
+F 0 "#PWR?" H 7650 2000 50  0001 C CNN
+F 1 "GND" H 7655 2077 50  0000 C CNN
+F 2 "" H 7650 2250 50  0001 C CNN
+F 3 "" H 7650 2250 50  0001 C CNN
+	1    7650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2050 7650 2250
+$Comp
+L Device:L L?
+U 1 1 5FC1EB27
+P 8550 1350
+F 0 "L?" V 8740 1350 50  0000 C CNN
+F 1 "2.2u" V 8649 1350 50  0000 C CNN
+F 2 "" H 8550 1350 50  0001 C CNN
+F 3 "~" H 8550 1350 50  0001 C CNN
+	1    8550 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 1350 8400 1350
+$Comp
+L Device:C C?
+U 1 1 5FC33F95
+P 9150 1650
+F 0 "C?" H 9265 1696 50  0000 L CNN
+F 1 "10u" H 9265 1605 50  0000 L CNN
+F 2 "" H 9188 1500 50  0001 C CNN
+F 3 "~" H 9150 1650 50  0001 C CNN
+	1    9150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1450 4800 1450
+Wire Wire Line
+	4950 1650 4650 1650
+Wire Wire Line
+	5750 2150 5750 2300
+Wire Wire Line
+	6200 1350 6200 2400
+Wire Wire Line
+	6100 2400 6100 2300
+Wire Wire Line
+	6100 2300 5750 2300
 Connection ~ 5750 2300
 Wire Wire Line
-	4650 1650 7300 1650
+	5750 2300 5750 3200
 Wire Wire Line
-	4650 1450 7300 1450
-Wire Wire Line
-	6350 2200 6200 2200
-Wire Wire Line
-	6200 2200 6200 1350
-Wire Wire Line
-	6200 1350 7300 1350
+	6850 1350 6200 1350
+Connection ~ 6850 1350
 Connection ~ 6200 1350
+Wire Wire Line
+	9150 1500 9150 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5FC4D9AD
+P 9150 2600
+F 0 "#PWR?" H 9150 2350 50  0001 C CNN
+F 1 "GND" H 9155 2427 50  0000 C CNN
+F 2 "" H 9150 2600 50  0001 C CNN
+F 3 "" H 9150 2600 50  0001 C CNN
+	1    9150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 2600 9150 1800
+Wire Wire Line
+	8700 1350 8850 1350
+Wire Wire Line
+	8450 1450 8450 2600
+Wire Wire Line
+	8850 1550 8850 1350
+Wire Wire Line
+	8250 1550 8850 1550
+Connection ~ 8850 1350
+Wire Wire Line
+	8850 1350 9150 1350
+Connection ~ 9150 1350
+Wire Wire Line
+	9150 1350 9850 1350
 $EndSCHEMATC

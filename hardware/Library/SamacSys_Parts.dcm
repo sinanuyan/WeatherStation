@@ -54,4 +54,10 @@ K
 F https://www.mouser.es/datasheet/2/427/si1308edl-1764588.pdf
 $ENDCMP
 #
+$CMP TPS62291DRVR
+D Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter
+K
+F https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63
+$ENDCMP
+#
 #End Doc Library

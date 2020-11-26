@@ -509,5 +509,5 @@ $EndSheet
 Text Notes 5450 4800 0    50   ~ 0
 High: 500 mA\nLow: prgrammed charge\nFloating: 100 mA
 Text Notes 5450 5050 0    50   ~ 0
-4.2 V output
+3.3 V output
 $EndSCHEMATC
