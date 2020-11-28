@@ -14,20 +14,621 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ProjectLibrary:ESP32-D0WD-V3 IC?
-U 1 1 5FCFF2A1
-P 4700 2650
-F 0 "IC?" H 5600 361 50  0000 C CNN
-F 1 "ESP32-D0WD-V3" H 5600 270 50  0000 C CNN
-F 2 "QFN35P500X500X90-49N-D" H 6350 3150 50  0001 L CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 6350 3050 50  0001 L CNN
-F 4 "WiFi Development Tools (802.11) SMD IC WiFi Dual Core BT Combo" H 6350 2950 50  0001 L CNN "Description"
-F 5 "0.9" H 6350 2850 50  0001 L CNN "Height"
-F 6 "356-ESP32-D0WD-V3" H 6350 2750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-D0WD-V3?qs=GBLSl2AkirsI7kXw8ZPing%3D%3D" H 6350 2650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Espressif Systems" H 6350 2550 50  0001 L CNN "Manufacturer_Name"
-F 9 "ESP32-D0WD-V3" H 6350 2450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4700 2650
+L Device:C C?
+U 1 1 5FD01F6D
+P 1500 2150
+AR Path="/5FD01F6D" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD01F6D" Ref="C?"  Part="1" 
+F 0 "C?" H 1615 2196 50  0000 L CNN
+F 1 "10u" H 1615 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 2000 50  0001 C CNN
+F 3 "~" H 1500 2150 50  0001 C CNN
+	1    1500 2150
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD01F73
+P 1500 2450
+AR Path="/5FD01F73" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD01F73" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 2200 50  0001 C CNN
+F 1 "GND" H 1505 2277 50  0000 C CNN
+F 2 "" H 1500 2450 50  0001 C CNN
+F 3 "" H 1500 2450 50  0001 C CNN
+	1    1500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2300 1500 2450
+$Comp
+L Device:C C?
+U 1 1 5FD02F90
+P 1900 2150
+AR Path="/5FD02F90" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD02F90" Ref="C?"  Part="1" 
+F 0 "C?" H 2015 2196 50  0000 L CNN
+F 1 "1u" H 2015 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1938 2000 50  0001 C CNN
+F 3 "~" H 1900 2150 50  0001 C CNN
+	1    1900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD02F96
+P 1900 2450
+AR Path="/5FD02F96" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD02F96" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1900 2200 50  0001 C CNN
+F 1 "GND" H 1905 2277 50  0000 C CNN
+F 2 "" H 1900 2450 50  0001 C CNN
+F 3 "" H 1900 2450 50  0001 C CNN
+	1    1900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2300 1900 2450
+$Comp
+L Device:C C?
+U 1 1 5FD0385E
+P 2300 2150
+AR Path="/5FD0385E" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD0385E" Ref="C?"  Part="1" 
+F 0 "C?" H 2415 2196 50  0000 L CNN
+F 1 "100n" H 2415 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2338 2000 50  0001 C CNN
+F 3 "~" H 2300 2150 50  0001 C CNN
+	1    2300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD03864
+P 2300 2450
+AR Path="/5FD03864" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD03864" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 2200 50  0001 C CNN
+F 1 "GND" H 2305 2277 50  0000 C CNN
+F 2 "" H 2300 2450 50  0001 C CNN
+F 3 "" H 2300 2450 50  0001 C CNN
+	1    2300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2300 2300 2450
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 5FD042F3
+P 2800 1950
+F 0 "L?" H 2800 2165 50  0000 C CNN
+F 1 "2n" H 2800 2074 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 2800 1950 50  0001 C CNN
+F 3 "~" H 2800 1950 50  0001 C CNN
+	1    2800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FD05301
+P 3250 2150
+AR Path="/5FD05301" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD05301" Ref="C?"  Part="1" 
+F 0 "C?" H 3365 2196 50  0000 L CNN
+F 1 "100n" H 3365 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3288 2000 50  0001 C CNN
+F 3 "~" H 3250 2150 50  0001 C CNN
+	1    3250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD05307
+P 3250 2450
+AR Path="/5FD05307" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD05307" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3250 2200 50  0001 C CNN
+F 1 "GND" H 3255 2277 50  0000 C CNN
+F 2 "" H 3250 2450 50  0001 C CNN
+F 3 "" H 3250 2450 50  0001 C CNN
+	1    3250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2300 3250 2450
+Wire Wire Line
+	2550 1950 2300 1950
+Wire Wire Line
+	1500 1950 1500 2000
+Wire Wire Line
+	1900 2000 1900 1950
+Connection ~ 1900 1950
+Wire Wire Line
+	1900 1950 1500 1950
+Wire Wire Line
+	2300 2000 2300 1950
+Connection ~ 2300 1950
+Wire Wire Line
+	2300 1950 1900 1950
+Wire Wire Line
+	3050 1950 3250 1950
+Wire Wire Line
+	3250 1950 3250 2000
+Wire Wire Line
+	3250 1950 3750 1950
+Wire Wire Line
+	3750 1950 3750 2850
+Connection ~ 3250 1950
+Wire Wire Line
+	3750 2950 3750 2850
+Connection ~ 3750 2850
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FD06196
+P 1500 1800
+F 0 "#PWR?" H 1500 1650 50  0001 C CNN
+F 1 "+3V3" H 1515 1973 50  0000 C CNN
+F 2 "" H 1500 1800 50  0001 C CNN
+F 3 "" H 1500 1800 50  0001 C CNN
+	1    1500 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1800 1500 1950
+Connection ~ 1500 1950
+$Comp
+L Device:C C?
+U 1 1 5FD0733A
+P 3250 1350
+AR Path="/5FD0733A" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD0733A" Ref="C?"  Part="1" 
+F 0 "C?" H 3365 1396 50  0000 L CNN
+F 1 "100n" H 3365 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3288 1200 50  0001 C CNN
+F 3 "~" H 3250 1350 50  0001 C CNN
+	1    3250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD07340
+P 3250 1650
+AR Path="/5FD07340" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD07340" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3250 1400 50  0001 C CNN
+F 1 "GND" H 3255 1477 50  0000 C CNN
+F 2 "" H 3250 1650 50  0001 C CNN
+F 3 "" H 3250 1650 50  0001 C CNN
+	1    3250 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1500 3250 1650
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FD077FB
+P 3250 1100
+F 0 "#PWR?" H 3250 950 50  0001 C CNN
+F 1 "+3V3" H 3265 1273 50  0000 C CNN
+F 2 "" H 3250 1100 50  0001 C CNN
+F 3 "" H 3250 1100 50  0001 C CNN
+	1    3250 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1100 3250 1150
+Wire Wire Line
+	4000 2650 4000 1150
+Wire Wire Line
+	4000 1150 3250 1150
+Connection ~ 3250 1150
+Wire Wire Line
+	3250 1150 3250 1200
+$Comp
+L ProjectLibrary:ESP32-D0WD-V3 IC?
+U 1 1 5FCFF2A1
+P 5300 2650
+AR Path="/5FCFF2A1" Ref="IC?"  Part="1" 
+AR Path="/5FCFD0E2/5FCFF2A1" Ref="IC?"  Part="1" 
+F 0 "IC?" H 6200 361 50  0000 C CNN
+F 1 "ESP32-D0WD-V3" H 6200 270 50  0000 C CNN
+F 2 "QFN35P500X500X90-49N-D" H 6950 3150 50  0001 L CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf" H 6950 3050 50  0001 L CNN
+F 4 "WiFi Development Tools (802.11) SMD IC WiFi Dual Core BT Combo" H 6950 2950 50  0001 L CNN "Description"
+F 5 "0.9" H 6950 2850 50  0001 L CNN "Height"
+F 6 "356-ESP32-D0WD-V3" H 6950 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-D0WD-V3?qs=GBLSl2AkirsI7kXw8ZPing%3D%3D" H 6950 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Espressif Systems" H 6950 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "ESP32-D0WD-V3" H 6950 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD0A7D8
+P 5300 2350
+F 0 "#PWR?" H 5300 2100 50  0001 C CNN
+F 1 "GND" H 5305 2177 50  0000 C CNN
+F 2 "" H 5300 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0001 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FD0D86A
+P 4900 2100
+AR Path="/5FD0D86A" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD0D86A" Ref="C?"  Part="1" 
+F 0 "C?" H 5015 2146 50  0000 L CNN
+F 1 "10n" H 5015 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 1950 50  0001 C CNN
+F 3 "~" H 4900 2100 50  0001 C CNN
+	1    4900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD0F0B4
+P 4500 2100
+AR Path="/5FD0F0B4" Ref="R?"  Part="1" 
+AR Path="/5FCFD0E2/5FD0F0B4" Ref="R?"  Part="1" 
+F 0 "R?" H 4570 2146 50  0000 L CNN
+F 1 "20k" H 4570 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 2100 50  0001 C CNN
+F 3 "~" H 4500 2100 50  0001 C CNN
+	1    4500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FD0FAC1
+P 4150 2100
+AR Path="/5FD0FAC1" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD0FAC1" Ref="C?"  Part="1" 
+F 0 "C?" H 4265 2146 50  0000 L CNN
+F 1 "3n3" H 4265 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 1950 50  0001 C CNN
+F 3 "~" H 4150 2100 50  0001 C CNN
+	1    4150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1950 5700 1900
+Wire Wire Line
+	5700 1900 5300 1900
+Wire Wire Line
+	5800 1950 5800 1850
+Wire Wire Line
+	5800 1850 4900 1850
+Wire Wire Line
+	4900 1850 4900 1950
+Wire Wire Line
+	5900 1950 5900 1800
+Wire Wire Line
+	5900 1800 4500 1800
+Wire Wire Line
+	4150 1800 4150 1950
+Wire Wire Line
+	4500 1950 4500 1800
+Connection ~ 4500 1800
+$Comp
+L power:GND #PWR?
+U 1 1 5FD239F4
+P 4900 2350
+F 0 "#PWR?" H 4900 2100 50  0001 C CNN
+F 1 "GND" H 4905 2177 50  0000 C CNN
+F 2 "" H 4900 2350 50  0001 C CNN
+F 3 "" H 4900 2350 50  0001 C CNN
+	1    4900 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1850 4750 1850
+Wire Wire Line
+	4750 1850 4750 2350
+Wire Wire Line
+	4750 2350 4500 2350
+Wire Wire Line
+	4150 2350 4150 2250
+Connection ~ 4900 1850
+Wire Wire Line
+	4500 2250 4500 2350
+Connection ~ 4500 2350
+Wire Wire Line
+	4900 2250 4900 2350
+Wire Wire Line
+	5300 1900 5300 2350
+Wire Wire Line
+	4000 2650 5300 2650
+Wire Wire Line
+	3750 2850 5300 2850
+Wire Wire Line
+	3750 2950 5300 2950
+Wire Wire Line
+	4150 1800 4500 1800
+Wire Wire Line
+	4150 2350 4500 2350
+$Comp
+L Device:C C?
+U 1 1 5FD3095F
+P 1400 3200
+AR Path="/5FD3095F" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD3095F" Ref="C?"  Part="1" 
+F 0 "C?" H 1515 3246 50  0000 L CNN
+F 1 "TBD" H 1515 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1438 3050 50  0001 C CNN
+F 3 "~" H 1400 3200 50  0001 C CNN
+	1    1400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD30965
+P 1400 3500
+AR Path="/5FD30965" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD30965" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1400 3250 50  0001 C CNN
+F 1 "GND" H 1405 3327 50  0000 C CNN
+F 2 "" H 1400 3500 50  0001 C CNN
+F 3 "" H 1400 3500 50  0001 C CNN
+	1    1400 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3350 1400 3500
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 5FD3096C
+P 1900 3000
+F 0 "L?" H 1900 3215 50  0000 C CNN
+F 1 "0R" H 1900 3124 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 1900 3000 50  0001 C CNN
+F 3 "~" H 1900 3000 50  0001 C CNN
+	1    1900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FD30972
+P 2350 3200
+AR Path="/5FD30972" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD30972" Ref="C?"  Part="1" 
+F 0 "C?" H 2465 3246 50  0000 L CNN
+F 1 "TBD" H 2465 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2388 3050 50  0001 C CNN
+F 3 "~" H 2350 3200 50  0001 C CNN
+	1    2350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD30978
+P 2350 3500
+AR Path="/5FD30978" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD30978" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2350 3250 50  0001 C CNN
+F 1 "GND" H 2355 3327 50  0000 C CNN
+F 2 "" H 2350 3500 50  0001 C CNN
+F 3 "" H 2350 3500 50  0001 C CNN
+	1    2350 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3350 2350 3500
+Wire Wire Line
+	1650 3000 1400 3000
+Wire Wire Line
+	1400 3050 1400 3000
+Connection ~ 1400 3000
+Wire Wire Line
+	1400 3000 1000 3000
+Wire Wire Line
+	2150 3000 2350 3000
+Wire Wire Line
+	2350 3000 2350 3050
+$Comp
+L Device:Antenna AE?
+U 1 1 5FD37ECF
+P 1000 2700
+F 0 "AE?" H 1080 2689 50  0000 L CNN
+F 1 "Antenna" H 1080 2598 50  0000 L CNN
+F 2 "" H 1000 2700 50  0001 C CNN
+F 3 "~" H 1000 2700 50  0001 C CNN
+	1    1000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2900 1000 3000
+Wire Wire Line
+	5300 2750 2350 2750
+Wire Wire Line
+	2350 2750 2350 3000
+Connection ~ 2350 3000
+$Comp
+L Device:C C?
+U 1 1 5FD3E83B
+P 5650 1250
+AR Path="/5FD3E83B" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD3E83B" Ref="C?"  Part="1" 
+F 0 "C?" H 5765 1296 50  0000 L CNN
+F 1 "100n" H 5765 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 1100 50  0001 C CNN
+F 3 "~" H 5650 1250 50  0001 C CNN
+	1    5650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD3E841
+P 5650 1550
+AR Path="/5FD3E841" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD3E841" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 1300 50  0001 C CNN
+F 1 "GND" H 5655 1377 50  0000 C CNN
+F 2 "" H 5650 1550 50  0001 C CNN
+F 3 "" H 5650 1550 50  0001 C CNN
+	1    5650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1400 5650 1550
+Wire Wire Line
+	6000 1950 6000 1000
+Wire Wire Line
+	6000 1000 5650 1000
+Wire Wire Line
+	5650 1000 5650 1100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FD41E10
+P 5650 900
+F 0 "#PWR?" H 5650 750 50  0001 C CNN
+F 1 "+3V3" H 5665 1073 50  0000 C CNN
+F 2 "" H 5650 900 50  0001 C CNN
+F 3 "" H 5650 900 50  0001 C CNN
+	1    5650 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 900  5650 1000
+Connection ~ 5650 1000
+$Comp
+L Device:C C?
+U 1 1 5FD45453
+P 8000 2950
+AR Path="/5FD45453" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD45453" Ref="C?"  Part="1" 
+F 0 "C?" H 8115 2996 50  0000 L CNN
+F 1 "100n" H 8115 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8038 2800 50  0001 C CNN
+F 3 "~" H 8000 2950 50  0001 C CNN
+	1    8000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD45459
+P 8000 3250
+AR Path="/5FD45459" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD45459" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 3000 50  0001 C CNN
+F 1 "GND" H 8005 3077 50  0000 C CNN
+F 2 "" H 8000 3250 50  0001 C CNN
+F 3 "" H 8000 3250 50  0001 C CNN
+	1    8000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3100 8000 3250
+Wire Wire Line
+	8000 2800 8000 2750
+Wire Wire Line
+	8000 2750 7100 2750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FD48A52
+P 8000 2700
+F 0 "#PWR?" H 8000 2550 50  0001 C CNN
+F 1 "+3V3" H 8015 2873 50  0000 C CNN
+F 2 "" H 8000 2700 50  0001 C CNN
+F 3 "" H 8000 2700 50  0001 C CNN
+	1    8000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2700 8000 2750
+Connection ~ 8000 2750
+$Comp
+L Device:C C?
+U 1 1 5FD4BD1E
+P 8000 4050
+AR Path="/5FD4BD1E" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD4BD1E" Ref="C?"  Part="1" 
+F 0 "C?" H 8115 4096 50  0000 L CNN
+F 1 "100n" H 8115 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8038 3900 50  0001 C CNN
+F 3 "~" H 8000 4050 50  0001 C CNN
+	1    8000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD4BD24
+P 8000 4350
+AR Path="/5FD4BD24" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD4BD24" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 4100 50  0001 C CNN
+F 1 "GND" H 8005 4177 50  0000 C CNN
+F 2 "" H 8000 4350 50  0001 C CNN
+F 3 "" H 8000 4350 50  0001 C CNN
+	1    8000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4200 8000 4350
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FD4D687
+P 8000 3800
+F 0 "#PWR?" H 8000 3650 50  0001 C CNN
+F 1 "+3V3" H 8015 3973 50  0000 C CNN
+F 2 "" H 8000 3800 50  0001 C CNN
+F 3 "" H 8000 3800 50  0001 C CNN
+	1    8000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3850 8000 3850
+Wire Wire Line
+	8000 3850 8000 3900
+Wire Wire Line
+	8000 3800 8000 3850
+Connection ~ 8000 3850
+$Comp
+L Device:C C?
+U 1 1 5FD526EC
+P 6600 5700
+AR Path="/5FD526EC" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FD526EC" Ref="C?"  Part="1" 
+F 0 "C?" H 6715 5746 50  0000 L CNN
+F 1 "100n" H 6715 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 5550 50  0001 C CNN
+F 3 "~" H 6600 5700 50  0001 C CNN
+	1    6600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD526F2
+P 6600 6000
+AR Path="/5FD526F2" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FD526F2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6600 5750 50  0001 C CNN
+F 1 "GND" H 6605 5827 50  0000 C CNN
+F 2 "" H 6600 6000 50  0001 C CNN
+F 3 "" H 6600 6000 50  0001 C CNN
+	1    6600 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5850 6600 6000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FD526F9
+P 6600 5450
+F 0 "#PWR?" H 6600 5300 50  0001 C CNN
+F 1 "+3V3" H 6615 5623 50  0000 C CNN
+F 2 "" H 6600 5450 50  0001 C CNN
+F 3 "" H 6600 5450 50  0001 C CNN
+	1    6600 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5450 6600 5550
+Wire Wire Line
+	6100 4850 6100 5550
+Wire Wire Line
+	6100 5550 6600 5550
+Connection ~ 6600 5550
 $EndSCHEMATC
