@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -153,8 +153,6 @@ Wire Wire Line
 	3250 1750 3150 1750
 Wire Wire Line
 	4650 1550 4800 1550
-Text HLabel 9850 1350 2    50   Input ~ 0
-PWR_OUT
 $Comp
 L ProjectLibrary:SML-D12Y1WT86 LED1
 U 1 1 5FC1DAA7
@@ -440,6 +438,17 @@ Connection ~ 8850 1350
 Wire Wire Line
 	8850 1350 9150 1350
 Connection ~ 9150 1350
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FCF0BC9
+P 9150 1200
+F 0 "#PWR?" H 9150 1050 50  0001 C CNN
+F 1 "+3V3" H 9165 1373 50  0000 C CNN
+F 2 "" H 9150 1200 50  0001 C CNN
+F 3 "" H 9150 1200 50  0001 C CNN
+	1    9150 1200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	9150 1350 9850 1350
+	9150 1200 9150 1350
 $EndSCHEMATC
