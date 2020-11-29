@@ -16,37 +16,309 @@ $EndDescr
 $Comp
 L ProjectLibrary:LTR-329ALS-01 U?
 U 1 1 5FCF928A
-P 2450 2650
+P 1950 3850
 AR Path="/5FCF928A" Ref="U?"  Part="1" 
 AR Path="/5FCF6796/5FCF928A" Ref="U?"  Part="1" 
-F 0 "U?" H 2950 2915 50  0000 C CNN
-F 1 "LTR-329ALS-01" H 2950 2824 50  0000 C CNN
-F 2 "LTR329ALS01" H 3300 2750 50  0001 L CNN
-F 3 "" H 3300 2650 50  0001 L CNN
-F 4 "Ambient Light Sensors Ambient Light Photo Sensor" H 3300 2550 50  0001 L CNN "Description"
-F 5 "0" H 3300 2450 50  0001 L CNN "Height"
-F 6 "859-LTR-329ALS-01" H 3300 2350 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTR-329ALS-01?qs=Ml%2FaxAEbwm8eHg8LIDPUrw%3D%3D" H 3300 2250 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Lite-On" H 3300 2150 50  0001 L CNN "Manufacturer_Name"
-F 9 "LTR-329ALS-01" H 3300 2050 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2450 2650
+F 0 "U?" H 2450 4115 50  0000 C CNN
+F 1 "LTR-329ALS-01" H 2450 4024 50  0000 C CNN
+F 2 "LTR329ALS01" H 2800 3950 50  0001 L CNN
+F 3 "" H 2800 3850 50  0001 L CNN
+F 4 "Ambient Light Sensors Ambient Light Photo Sensor" H 2800 3750 50  0001 L CNN "Description"
+F 5 "0" H 2800 3650 50  0001 L CNN "Height"
+F 6 "859-LTR-329ALS-01" H 2800 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTR-329ALS-01?qs=Ml%2FaxAEbwm8eHg8LIDPUrw%3D%3D" H 2800 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lite-On" H 2800 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTR-329ALS-01" H 2800 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1950 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L ProjectLibrary:SHT31-ARP-B2.5kS IC?
 U 1 1 5FCFAF8C
-P 4300 2450
-F 0 "IC?" H 4900 2715 50  0000 C CNN
-F 1 "SHT31-ARP-B2.5kS" H 4900 2624 50  0000 C CNN
-F 2 "SON50P250X250X100-9N-D" H 5350 2550 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/SHT31-ARP-B2.5kS.pdf" H 5350 2450 50  0001 L CNN
-F 4 "Board Mount Humidity Sensors +/- 2%RH 14 bit Resolution" H 5350 2350 50  0001 L CNN "Description"
-F 5 "1" H 5350 2250 50  0001 L CNN "Height"
-F 6 "403-SHT31-ARP-B" H 5350 2150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT31-ARP-B25kS?qs=y6ZabgHbY%252BxqV2K0yYcGiA%3D%3D" H 5350 2050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Sensirion" H 5350 1950 50  0001 L CNN "Manufacturer_Name"
-F 9 "SHT31-ARP-B2.5kS" H 5350 1850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4300 2450
+P 1700 1600
+F 0 "IC?" H 2300 1865 50  0000 C CNN
+F 1 "SHT31-ARP-B2.5kS" H 2300 1774 50  0000 C CNN
+F 2 "SON50P250X250X100-9N-D" H 2750 1700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SHT31-ARP-B2.5kS.pdf" H 2750 1600 50  0001 L CNN
+F 4 "Board Mount Humidity Sensors +/- 2%RH 14 bit Resolution" H 2750 1500 50  0001 L CNN "Description"
+F 5 "1" H 2750 1400 50  0001 L CNN "Height"
+F 6 "403-SHT31-ARP-B" H 2750 1300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT31-ARP-B25kS?qs=y6ZabgHbY%252BxqV2K0yYcGiA%3D%3D" H 2750 1200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Sensirion" H 2750 1100 50  0001 L CNN "Manufacturer_Name"
+F 9 "SHT31-ARP-B2.5kS" H 2750 1000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1700 1600
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC3EFCC
+P 1000 2450
+F 0 "#PWR?" H 1000 2200 50  0001 C CNN
+F 1 "GND" H 1005 2277 50  0000 C CNN
+F 2 "" H 1000 2450 50  0001 C CNN
+F 3 "" H 1000 2450 50  0001 C CNN
+	1    1000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC3FCDF
+P 1250 2450
+F 0 "#PWR?" H 1250 2200 50  0001 C CNN
+F 1 "GND" H 1255 2277 50  0000 C CNN
+F 2 "" H 1250 2450 50  0001 C CNN
+F 3 "" H 1250 2450 50  0001 C CNN
+	1    1250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC413C8
+P 3300 2200
+F 0 "#PWR?" H 3300 1950 50  0001 C CNN
+F 1 "GND" H 3305 2027 50  0000 C CNN
+F 2 "" H 3300 2200 50  0001 C CNN
+F 3 "" H 3300 2200 50  0001 C CNN
+	1    3300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1700 3300 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5FC41E99
+P 3550 2200
+F 0 "#PWR?" H 3550 1950 50  0001 C CNN
+F 1 "GND" H 3555 2027 50  0000 C CNN
+F 2 "" H 3550 2200 50  0001 C CNN
+F 3 "" H 3550 2200 50  0001 C CNN
+	1    3550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1600 3550 2200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC42222
+P 3150 850
+F 0 "#PWR?" H 3150 700 50  0001 C CNN
+F 1 "+3.3V" H 3165 1023 50  0000 C CNN
+F 2 "" H 3150 850 50  0001 C CNN
+F 3 "" H 3150 850 50  0001 C CNN
+	1    3150 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1900 3150 1900
+Wire Wire Line
+	3150 1900 3150 1450
+Wire Wire Line
+	2900 1700 3300 1700
+Wire Wire Line
+	2900 1600 3550 1600
+Wire Wire Line
+	2900 1800 3000 1800
+$Comp
+L power:GND #PWR?
+U 1 1 5FC4340F
+P 2300 2550
+F 0 "#PWR?" H 2300 2300 50  0001 C CNN
+F 1 "GND" H 2305 2377 50  0000 C CNN
+F 2 "" H 2300 2550 50  0001 C CNN
+F 3 "" H 2300 2550 50  0001 C CNN
+	1    2300 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2550 2300 2400
+Wire Wire Line
+	3150 1450 3800 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5FC43AB4
+P 3800 2200
+F 0 "#PWR?" H 3800 1950 50  0001 C CNN
+F 1 "GND" H 3805 2027 50  0000 C CNN
+F 2 "" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FC43BEB
+P 3800 1900
+F 0 "C?" H 3915 1946 50  0000 L CNN
+F 1 "100n" H 3915 1855 50  0000 L CNN
+F 2 "" H 3838 1750 50  0001 C CNN
+F 3 "~" H 3800 1900 50  0001 C CNN
+	1    3800 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1450 3800 1750
+Wire Wire Line
+	3800 2050 3800 2200
+Text HLabel 3500 1300 2    50   Output ~ 0
+RST_SHT31
+Wire Wire Line
+	3000 1800 3000 1300
+Wire Wire Line
+	3000 1300 3500 1300
+Connection ~ 3150 1450
+Text HLabel 3500 1000 2    50   Output ~ 0
+T_SHT31
+Text HLabel 3500 1150 2    50   Output ~ 0
+RH_SHT31
+Wire Wire Line
+	3150 850  3150 1450
+Wire Wire Line
+	1700 1600 1600 1600
+Wire Wire Line
+	1700 1900 1450 1900
+Wire Wire Line
+	1600 1600 1600 1150
+Wire Wire Line
+	1600 1150 3500 1150
+Wire Wire Line
+	1450 1000 3500 1000
+Wire Wire Line
+	1450 1000 1450 1900
+$Comp
+L Device:C C?
+U 1 1 5FC4AF62
+P 1600 2150
+F 0 "C?" H 1715 2196 50  0000 L CNN
+F 1 "1n" H 1715 2105 50  0000 L CNN
+F 2 "" H 1638 2000 50  0001 C CNN
+F 3 "~" H 1600 2150 50  0001 C CNN
+	1    1600 2150
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5FC4C5FB
+P 1600 2450
+F 0 "#PWR?" H 1600 2200 50  0001 C CNN
+F 1 "GND" H 1605 2277 50  0000 C CNN
+F 2 "" H 1600 2450 50  0001 C CNN
+F 3 "" H 1600 2450 50  0001 C CNN
+	1    1600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2300 1600 2450
+$Comp
+L power:GND #PWR?
+U 1 1 5FC4E233
+P 750 2450
+F 0 "#PWR?" H 750 2200 50  0001 C CNN
+F 1 "GND" H 755 2277 50  0000 C CNN
+F 2 "" H 750 2450 50  0001 C CNN
+F 3 "" H 750 2450 50  0001 C CNN
+	1    750  2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  1700 750  2450
+Wire Wire Line
+	1000 1800 1000 2450
+Wire Wire Line
+	1250 1900 1250 2000
+$Comp
+L Device:C C?
+U 1 1 5FC50646
+P 1250 2150
+F 0 "C?" H 1365 2196 50  0000 L CNN
+F 1 "1n" H 1365 2105 50  0000 L CNN
+F 2 "" H 1288 2000 50  0001 C CNN
+F 3 "~" H 1250 2150 50  0001 C CNN
+	1    1250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2300 1250 2450
+Wire Wire Line
+	1600 1600 1600 2000
+Wire Wire Line
+	1700 1800 1000 1800
+Wire Wire Line
+	1700 1700 750  1700
+Wire Wire Line
+	1250 1900 1450 1900
+Connection ~ 1450 1900
+Text HLabel 3300 3600 2    50   Output ~ 0
+SDA
+Text HLabel 3300 3450 2    50   Output ~ 0
+SCL
+Wire Wire Line
+	1950 3850 1800 3850
+Wire Wire Line
+	1800 3850 1800 3450
+Wire Wire Line
+	1800 3450 3300 3450
+Wire Wire Line
+	2950 3850 3100 3850
+Wire Wire Line
+	3100 3600 3300 3600
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FC5D789
+P 1650 3350
+F 0 "#PWR?" H 1650 3200 50  0001 C CNN
+F 1 "+3.3V" H 1665 3523 50  0000 C CNN
+F 2 "" H 1650 3350 50  0001 C CNN
+F 3 "" H 1650 3350 50  0001 C CNN
+	1    1650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3350 1650 3950
+Wire Wire Line
+	1650 3950 1950 3950
+Wire Wire Line
+	2950 3950 3050 3950
+$Comp
+L power:GND #PWR?
+U 1 1 5FC5FD00
+P 3050 4150
+F 0 "#PWR?" H 3050 3900 50  0001 C CNN
+F 1 "GND" H 3055 3977 50  0000 C CNN
+F 2 "" H 3050 4150 50  0001 C CNN
+F 3 "" H 3050 4150 50  0001 C CNN
+	1    3050 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3950 3050 4150
+$Comp
+L Device:C C?
+U 1 1 5FC60CC5
+P 1650 4200
+F 0 "C?" H 1765 4246 50  0000 L CNN
+F 1 "1u" H 1765 4155 50  0000 L CNN
+F 2 "" H 1688 4050 50  0001 C CNN
+F 3 "~" H 1650 4200 50  0001 C CNN
+	1    1650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3950 1650 4050
+Connection ~ 1650 3950
+Wire Wire Line
+	1650 4350 1650 4500
+$Comp
+L power:GND #PWR?
+U 1 1 5FC631EE
+P 1650 4500
+F 0 "#PWR?" H 1650 4250 50  0001 C CNN
+F 1 "GND" H 1655 4327 50  0000 C CNN
+F 2 "" H 1650 4500 50  0001 C CNN
+F 3 "" H 1650 4500 50  0001 C CNN
+	1    1650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3600 3100 3850
 $EndSCHEMATC
