@@ -60,4 +60,16 @@ K
 F https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63
 $ENDCMP
 #
+$CMP SHT30-DIS-B2.5KS
+D Humidity/Temperature Sensor Digital Serial (I2C) 8-Pin DFN EP T/R
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHT3x_DIS.pdf
+$ENDCMP
+#
+$CMP LPS22HDTR
+D Board Mount Pressure Sensors Piezoresistive absolute pressure sensor, 260-1260 hPa, digital output barometer, small and thin package
+K
+F https://www.st.com/resource/en/datasheet/lps22hd.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -322,4 +322,59 @@ P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model SHT30-DIS-B2.5KS
+#/1971223/145148/2.47/9/4/Integrated Circuit
+DEF SHT30-DIS-B2.5KS IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "SHT30-DIS-B2.5KS" 1150 200 50 H V L CNN
+F2 "SHT30DISB25KS" 1150 100 50 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHT3x_DIS.pdf" 1150 0 50 H I L CNN
+F4 "Humidity/Temperature Sensor Digital Serial (I2C) 8-Pin DFN EP T/R" 1150 -100 50 H I L CNN "Description"
+F5 "1" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Sensirion AG" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SHT30-DIS-B2.5KS" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SDA 1 0 0 200 R 50 50 0 0 P
+X ADDR 2 0 -100 200 R 50 50 0 0 P
+X ALERT 3 0 -200 200 R 50 50 0 0 P
+X SCL 4 0 -300 200 R 50 50 0 0 P
+X VDD 5 0 -400 200 R 50 50 0 0 P
+X NRESET 6 1300 0 200 L 50 50 0 0 P
+X R 7 1300 -100 200 L 50 50 0 0 P
+X VSS 8 1300 -200 200 L 50 50 0 0 P
+X EP 9 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LPS22HDTR
+#/867468/145148/2.47/10/4/Integrated Circuit
+DEF LPS22HDTR IC 0 30 Y Y 1 F N
+F0 "IC" 1450 700 50 H V L CNN
+F1 "LPS22HDTR" 1450 600 50 H V L CNN
+F2 "LPS22HDTR" 1450 500 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/lps22hd.pdf" 1450 400 50 H I L CNN
+F4 "Board Mount Pressure Sensors Piezoresistive absolute pressure sensor, 260-1260 hPa, digital output barometer, small and thin package" 1450 300 50 H I L CNN "Description"
+F5 "0.8" 1450 200 50 H I L CNN "Height"
+F6 "511-LPS22HDTR" 1450 100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LPS22HDTR?qs=qVqInAHJvrZgdoVrJXJCrw%3D%3D" 1450 0 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 1450 -100 50 H I L CNN "Manufacturer_Name"
+F9 "LPS22HDTR" 1450 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VDD_IO 1 0 0 200 R 50 50 0 0 P
+X SCL/SPC 2 0 -100 200 R 50 50 0 0 P
+X RES 3 700 -1100 200 U 50 50 0 0 P
+X SDA/SDI/SDO 4 800 -1100 200 U 50 50 0 0 P
+X SDO/SA0 5 900 -1100 200 U 50 50 0 0 P
+X CS 6 1600 -100 200 L 50 50 0 0 P
+X INT_DRDY 7 1600 0 200 L 50 50 0 0 P
+X GND_1 8 900 700 200 D 50 50 0 0 P
+X GND_2 9 800 700 200 D 50 50 0 0 P
+X VDD 10 700 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1400 500 1400 -900 200 -900 200 500 N
+ENDDRAW
+ENDDEF
+#
 #End Library
