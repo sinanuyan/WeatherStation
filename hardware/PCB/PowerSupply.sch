@@ -43,10 +43,6 @@ F 3 "~" H 1500 1650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1500 1350 1500 1500
-Text HLabel 1200 1350 0    50   Input ~ 0
-PWR_IN
-Wire Wire Line
-	1500 1350 1200 1350
 Connection ~ 1500 1350
 $Comp
 L power:GND #PWR024
@@ -147,8 +143,6 @@ F 3 "" H 3950 2400 50  0001 C CNN
 $EndComp
 Text HLabel 4950 1650 2    50   Input ~ 0
 I_SET_BAT
-Text HLabel 4800 1450 2    50   Input ~ 0
-TEMP
 Wire Wire Line
 	3250 1750 3150 1750
 Wire Wire Line
@@ -187,11 +181,6 @@ F 9 "SML-D12Y1WT86" H 5300 1650 50  0001 L BNN "Manufacturer_Part_Number"
 	1    4800 2200
 	0    1    1    0   
 $EndComp
-Connection ~ 5450 1350
-Wire Wire Line
-	5450 1350 5750 1350
-Wire Wire Line
-	4650 1350 5450 1350
 Wire Wire Line
 	3150 2200 3150 1750
 $Comp
@@ -229,9 +218,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 3350 4800 3250
 Wire Wire Line
-	4800 3350 5450 3350
-Wire Wire Line
-	5450 1350 5450 3350
+	5550 1350 5550 3350
 Connection ~ 4800 3350
 Wire Wire Line
 	3950 2250 3950 2400
@@ -393,8 +380,6 @@ F 3 "~" H 9150 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 1450 4800 1450
-Wire Wire Line
 	4950 1650 4650 1650
 Wire Wire Line
 	5750 2150 5750 2300
@@ -451,4 +436,56 @@ F 3 "" H 9150 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9150 1200 9150 1350
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD7BBDC
+P 1500 1150
+F 0 "#PWR?" H 1500 1000 50  0001 C CNN
+F 1 "+5V" H 1515 1323 50  0000 C CNN
+F 2 "" H 1500 1150 50  0001 C CNN
+F 3 "" H 1500 1150 50  0001 C CNN
+	1    1500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1150 1500 1350
+$Comp
+L Device:R R?
+U 1 1 5FD81F10
+P 5300 2400
+F 0 "R?" H 5370 2446 50  0000 L CNN
+F 1 "10k" H 5370 2355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 2400 50  0001 C CNN
+F 3 "~" H 5300 2400 50  0001 C CNN
+	1    5300 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 1350
+Wire Wire Line
+	5550 1350 5750 1350
+Wire Wire Line
+	4650 1350 5550 1350
+Wire Wire Line
+	4800 3350 5550 3350
+Wire Wire Line
+	5450 1450 5450 2050
+Wire Wire Line
+	5450 2050 5300 2050
+Wire Wire Line
+	5300 2050 5300 2250
+Wire Wire Line
+	4650 1450 5450 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5FD87B54
+P 5300 2750
+F 0 "#PWR?" H 5300 2500 50  0001 C CNN
+F 1 "GND" H 5305 2577 50  0000 C CNN
+F 2 "" H 5300 2750 50  0001 C CNN
+F 3 "" H 5300 2750 50  0001 C CNN
+	1    5300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2550 5300 2750
 $EndSCHEMATC

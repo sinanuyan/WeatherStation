@@ -210,8 +210,6 @@ Wire Wire Line
 	3750 2400 3750 3200
 Text HLabel 3350 2300 2    50   Output ~ 0
 RST_SHT31
-Wire Wire Line
-	3200 2300 3350 2300
 Text HLabel 6700 1550 2    50   Output ~ 0
 SCL
 Text HLabel 6700 1850 2    50   Output ~ 0
@@ -294,9 +292,7 @@ Wire Wire Line
 	3400 1550 4550 1550
 Connection ~ 4550 1550
 Wire Wire Line
-	4550 1550 6350 1550
-Wire Wire Line
-	1600 1700 6700 1700
+	1600 1700 6200 1700
 Wire Wire Line
 	3750 1850 5800 1850
 Connection ~ 5800 1850
@@ -505,5 +501,91 @@ $EndComp
 Text HLabel 6500 5050 2    50   Output ~ 0
 ALERT_LPS22
 Wire Wire Line
-	3950 5050 6500 5050
+	3950 5050 5750 5050
+$Comp
+L Device:R R?
+U 1 1 5FD8C795
+P 3100 1250
+F 0 "R?" H 3170 1296 50  0000 L CNN
+F 1 "10k" H 3170 1205 50  0000 L CNN
+F 2 "" V 3030 1250 50  0001 C CNN
+F 3 "~" H 3100 1250 50  0001 C CNN
+	1    3100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD8E1C7
+P 6200 1300
+F 0 "R?" H 6270 1346 50  0000 L CNN
+F 1 "10k" H 6270 1255 50  0000 L CNN
+F 2 "" V 6130 1300 50  0001 C CNN
+F 3 "~" H 6200 1300 50  0001 C CNN
+	1    6200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FD8FA02
+P 5750 4800
+F 0 "R?" H 5820 4846 50  0000 L CNN
+F 1 "10k" H 5820 4755 50  0000 L CNN
+F 2 "" V 5680 4800 50  0001 C CNN
+F 3 "~" H 5750 4800 50  0001 C CNN
+	1    5750 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1550 6350 1550
+Wire Wire Line
+	3200 2300 3300 2300
+Wire Wire Line
+	3100 950  3400 950 
+Wire Wire Line
+	3100 950  3100 1100
+Wire Wire Line
+	3100 1400 3100 2000
+Wire Wire Line
+	3100 2000 3300 2000
+Wire Wire Line
+	3300 2000 3300 2300
+Connection ~ 3300 2300
+Wire Wire Line
+	3300 2300 3350 2300
+Wire Wire Line
+	6200 1450 6200 1700
+Connection ~ 6200 1700
+Wire Wire Line
+	6200 1700 6700 1700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FDA12EA
+P 6200 1000
+F 0 "#PWR?" H 6200 850 50  0001 C CNN
+F 1 "+3.3V" H 6215 1173 50  0000 C CNN
+F 2 "" H 6200 1000 50  0001 C CNN
+F 3 "" H 6200 1000 50  0001 C CNN
+	1    6200 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1150 6200 1000
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FDA564B
+P 5750 4500
+F 0 "#PWR?" H 5750 4350 50  0001 C CNN
+F 1 "+3.3V" H 5765 4673 50  0000 C CNN
+F 2 "" H 5750 4500 50  0001 C CNN
+F 3 "" H 5750 4500 50  0001 C CNN
+	1    5750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4500 5750 4650
+Wire Wire Line
+	5750 4950 5750 5050
+Connection ~ 5750 5050
+Wire Wire Line
+	5750 5050 6500 5050
 $EndSCHEMATC
