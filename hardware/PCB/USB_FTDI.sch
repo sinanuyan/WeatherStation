@@ -393,8 +393,8 @@ Wire Wire Line
 Connection ~ 5900 5450
 Text HLabel 6800 4000 2    50   Output ~ 0
 ESP_UART_RTS
-Text HLabel 6800 4100 2    50   Output ~ 0
-ESP_UART_CTS
+Text HLabel 6800 4200 2    50   Output ~ 0
+ESP_UART_DTR
 $Comp
 L Interface_USB:FT231XQ U?
 U 1 1 5FFEC088
@@ -409,5 +409,5 @@ $EndComp
 Wire Wire Line
 	6600 4000 6800 4000
 Wire Wire Line
-	6600 4100 6800 4100
+	6600 4200 6800 4200
 $EndSCHEMATC
