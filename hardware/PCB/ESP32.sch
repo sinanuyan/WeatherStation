@@ -505,37 +505,35 @@ Wire Wire Line
 $Comp
 L Device:C C?
 U 1 1 5FD526EC
-P 6600 5700
+P 6600 6050
 AR Path="/5FD526EC" Ref="C?"  Part="1" 
 AR Path="/5FCFD0E2/5FD526EC" Ref="C31"  Part="1" 
 AR Path="/5FE895CA/5FD526EC" Ref="C?"  Part="1" 
-F 0 "C31" H 6715 5746 50  0000 L CNN
-F 1 "100n" H 6715 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 5550 50  0001 C CNN
-F 3 "~" H 6600 5700 50  0001 C CNN
-	1    6600 5700
+F 0 "C31" H 6715 6096 50  0000 L CNN
+F 1 "100n" H 6715 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 5900 50  0001 C CNN
+F 3 "~" H 6600 6050 50  0001 C CNN
+	1    6600 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FD526F2
-P 6600 6000
+P 6600 6350
 AR Path="/5FD526F2" Ref="#PWR?"  Part="1" 
 AR Path="/5FCFD0E2/5FD526F2" Ref="#PWR071"  Part="1" 
 AR Path="/5FE895CA/5FD526F2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR071" H 6600 5750 50  0001 C CNN
-F 1 "GND" H 6605 5827 50  0000 C CNN
-F 2 "" H 6600 6000 50  0001 C CNN
-F 3 "" H 6600 6000 50  0001 C CNN
-	1    6600 6000
+F 0 "#PWR071" H 6600 6100 50  0001 C CNN
+F 1 "GND" H 6605 6177 50  0000 C CNN
+F 2 "" H 6600 6350 50  0001 C CNN
+F 3 "" H 6600 6350 50  0001 C CNN
+	1    6600 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 5850 6600 6000
+	6600 6200 6600 6350
 Wire Wire Line
-	6100 4850 6100 5550
-Wire Wire Line
-	6100 5550 6600 5550
+	6100 5900 6600 5900
 $Comp
 L ABS05-32.768KHZ-T:ABS05-32.768KHZ-T Y1
 U 1 1 5FE918FF
@@ -785,19 +783,19 @@ Connection ~ 8000 2750
 $Comp
 L power:+3V3 #PWR093
 U 1 1 5FF8D277
-P 6600 5500
+P 6600 5850
 AR Path="/5FCFD0E2/5FF8D277" Ref="#PWR093"  Part="1" 
 AR Path="/5FE895CA/5FF8D277" Ref="#PWR?"  Part="1" 
-F 0 "#PWR093" H 6600 5350 50  0001 C CNN
-F 1 "+3V3" H 6615 5673 50  0000 C CNN
-F 2 "" H 6600 5500 50  0001 C CNN
-F 3 "" H 6600 5500 50  0001 C CNN
-	1    6600 5500
+F 0 "#PWR093" H 6600 5700 50  0001 C CNN
+F 1 "+3V3" H 6615 6023 50  0000 C CNN
+F 2 "" H 6600 5850 50  0001 C CNN
+F 3 "" H 6600 5850 50  0001 C CNN
+	1    6600 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 5500 6600 5550
-Connection ~ 6600 5550
+	6600 5850 6600 5900
+Connection ~ 6600 5900
 $Comp
 L ProjectLibrary:ABM11AIG-40.000MHZ-4-1Z-T Y2
 U 1 1 5FF99E69
@@ -925,4 +923,118 @@ Wire Wire Line
 	6200 1800 6200 1950
 Wire Wire Line
 	6100 1800 6100 1950
+$Comp
+L ProjectLibrary:SS8050-G Q?
+U 1 1 5FFFFA03
+P 2600 4700
+F 0 "Q?" H 3138 4746 50  0000 L CNN
+F 1 "SS8050-G" H 3138 4655 50  0000 L CNN
+F 2 "SOT95P240X115-3N" H 3150 4550 50  0001 L CNN
+F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 3150 4450 50  0001 L CNN
+F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 3150 4350 50  0001 L CNN "Description"
+F 5 "1.15" H 3150 4250 50  0001 L CNN "Height"
+F 6 "750-SS8050-G" H 3150 4150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G/?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D" H 3150 4050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Comchip Technology" H 3150 3950 50  0001 L CNN "Manufacturer_Name"
+F 9 "SS8050-G" H 3150 3850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ProjectLibrary:SS8050-G Q?
+U 1 1 60008ECC
+P 2600 5800
+F 0 "Q?" H 3138 5846 50  0000 L CNN
+F 1 "SS8050-G" H 3138 5755 50  0000 L CNN
+F 2 "SOT95P240X115-3N" H 3150 5650 50  0001 L CNN
+F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 3150 5550 50  0001 L CNN
+F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 3150 5450 50  0001 L CNN "Description"
+F 5 "1.15" H 3150 5350 50  0001 L CNN "Height"
+F 6 "750-SS8050-G" H 3150 5250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G/?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D" H 3150 5150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Comchip Technology" H 3150 5050 50  0001 L CNN "Manufacturer_Name"
+F 9 "SS8050-G" H 3150 4950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2600 5800
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6000F441
+P 2350 4700
+AR Path="/6000F441" Ref="R?"  Part="1" 
+AR Path="/5FCFD0E2/6000F441" Ref="R?"  Part="1" 
+AR Path="/5FE895CA/6000F441" Ref="R?"  Part="1" 
+F 0 "R?" V 2450 4700 50  0000 L CNN
+F 1 "10k" V 2250 4650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 4700 50  0001 C CNN
+F 3 "~" H 2350 4700 50  0001 C CNN
+	1    2350 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60013917
+P 2350 5800
+AR Path="/60013917" Ref="R?"  Part="1" 
+AR Path="/5FCFD0E2/60013917" Ref="R?"  Part="1" 
+AR Path="/5FE895CA/60013917" Ref="R?"  Part="1" 
+F 0 "R?" V 2450 5800 50  0000 L CNN
+F 1 "10k" V 2250 5750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 5800 50  0001 C CNN
+F 3 "~" H 2350 5800 50  0001 C CNN
+	1    2350 5800
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1500 5800 0    50   Input ~ 0
+ESP_UART_RTS
+Text HLabel 1500 4700 0    50   Input ~ 0
+ESP_UART_DTR
+Wire Wire Line
+	2500 4700 2600 4700
+Wire Wire Line
+	2500 5800 2600 5800
+Wire Wire Line
+	1500 4700 2000 4700
+Wire Wire Line
+	1500 5800 1850 5800
+Wire Wire Line
+	3000 5500 3000 5350
+Wire Wire Line
+	3000 5350 2000 5350
+Wire Wire Line
+	2000 5350 2000 4700
+Connection ~ 2000 4700
+Wire Wire Line
+	2000 4700 2200 4700
+Wire Wire Line
+	3000 5000 3000 5150
+Wire Wire Line
+	3000 5150 1850 5150
+Wire Wire Line
+	1850 5150 1850 5800
+Connection ~ 1850 5800
+Wire Wire Line
+	1850 5800 2200 5800
+Text GLabel 3350 4300 2    50   Output ~ 0
+ESP_EN
+Wire Wire Line
+	3000 4400 3000 4300
+Wire Wire Line
+	3000 4300 3350 4300
+Text GLabel 3350 6150 2    50   Output ~ 0
+ESP_BOOT0
+Wire Wire Line
+	3350 6150 3000 6150
+Wire Wire Line
+	3000 6150 3000 6100
+Text GLabel 6500 4950 3    50   Input ~ 0
+ESP_BOOT0
+Wire Wire Line
+	6100 4850 6100 5900
+Wire Wire Line
+	6500 4950 6500 4850
+Text GLabel 4800 3450 0    50   Input ~ 0
+ESP_EN
+Wire Wire Line
+	4800 3450 5300 3450
 $EndSCHEMATC
