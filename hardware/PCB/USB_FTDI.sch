@@ -288,12 +288,6 @@ Wire Wire Line
 Connection ~ 5900 5050
 NoConn ~ 6600 4000
 NoConn ~ 6600 4100
-Text GLabel 6800 3800 2    50   Output ~ 0
-ESP_UART_RX
-Wire Wire Line
-	6600 3800 6800 3800
-Text GLabel 6800 3900 2    50   Input ~ 0
-ESP_UART_TX
 Wire Wire Line
 	6800 3900 6600 3900
 $Comp
@@ -406,4 +400,10 @@ Text Label 4350 4100 0    50   ~ 0
 USB_D_M
 Text Label 4350 4200 0    50   ~ 0
 USB_D_P
+Text HLabel 6800 3800 2    50   Output ~ 0
+ESP_UART_RX
+Wire Wire Line
+	6600 3800 6800 3800
+Text HLabel 6800 3900 2    50   Input ~ 0
+ESP_UART_TX
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -679,4 +679,107 @@ Wire Wire Line
 Wire Wire Line
 	6100 5550 6600 5550
 Connection ~ 6600 5550
+$Comp
+L ABS05-32.768KHZ-T:ABS05-32.768KHZ-T Y1
+U 1 1 5FE918FF
+P 1300 6750
+F 0 "Y1" H 1800 6900 50  0000 L CNN
+F 1 "ABS05-32.768KHZ-T" H 1700 6450 50  0000 C CNN
+F 2 "ProjectFootprints:ABS05" H 1950 6850 50  0001 L CNN
+F 3 "" H 1950 6750 50  0001 L CNN
+F 4 "ABRACON - ABS05-32.768KHZ-T - CRYSTAL, 32.768KHZ, 12.5PF, 1.6 X 1MM" H 1950 6650 50  0001 L CNN "Description"
+F 5 "" H 1950 6550 50  0001 L CNN "Height"
+F 6 "815-ABS05-32.768K-T" H 1950 6450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ABRACON/ABS05-32768KHZ-T/?qs=Pyu0ZBy%2FIJZ5hxIXB%2FLU5A%3D%3D" H 1950 6350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ABRACON" H 1950 6250 50  0001 L CNN "Manufacturer_Name"
+F 9 "ABS05-32.768KHZ-T" H 1950 6150 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1300 6750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FE97E75
+P 1500 7250
+AR Path="/5FE97E75" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FE97E75" Ref="C38"  Part="1" 
+AR Path="/5FE895CA/5FE97E75" Ref="C?"  Part="1" 
+F 0 "C38" H 1615 7296 50  0000 L CNN
+F 1 "12p5" H 1615 7205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 7100 50  0001 C CNN
+F 3 "~" H 1500 7250 50  0001 C CNN
+	1    1500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE97E7B
+P 1500 7550
+AR Path="/5FE97E7B" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FE97E7B" Ref="#PWR088"  Part="1" 
+AR Path="/5FE895CA/5FE97E7B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR088" H 1500 7300 50  0001 C CNN
+F 1 "GND" H 1505 7377 50  0000 C CNN
+F 2 "" H 1500 7550 50  0001 C CNN
+F 3 "" H 1500 7550 50  0001 C CNN
+	1    1500 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 7400 1500 7550
+Wire Wire Line
+	1300 6850 1500 6850
+Wire Wire Line
+	1500 6850 1500 7100
+$Comp
+L Device:C C?
+U 1 1 5FE9B435
+P 2000 7250
+AR Path="/5FE9B435" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/5FE9B435" Ref="C39"  Part="1" 
+AR Path="/5FE895CA/5FE9B435" Ref="C?"  Part="1" 
+F 0 "C39" H 2115 7296 50  0000 L CNN
+F 1 "12p5" H 2115 7205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2038 7100 50  0001 C CNN
+F 3 "~" H 2000 7250 50  0001 C CNN
+	1    2000 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE9B43B
+P 2000 7550
+AR Path="/5FE9B43B" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FE9B43B" Ref="#PWR089"  Part="1" 
+AR Path="/5FE895CA/5FE9B43B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR089" H 2000 7300 50  0001 C CNN
+F 1 "GND" H 2005 7377 50  0000 C CNN
+F 2 "" H 2000 7550 50  0001 C CNN
+F 3 "" H 2000 7550 50  0001 C CNN
+	1    2000 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 7400 2000 7550
+Wire Wire Line
+	1300 6750 2000 6750
+Wire Wire Line
+	2000 6750 2000 7100
+Text GLabel 2350 6750 2    50   Output ~ 0
+32K_XP
+Text GLabel 2350 6850 2    50   Output ~ 0
+32K_XN
+Wire Wire Line
+	1500 6850 2350 6850
+Connection ~ 1500 6850
+Wire Wire Line
+	2000 6750 2350 6750
+Connection ~ 2000 6750
+Text GLabel 5000 3750 0    50   Input ~ 0
+32K_XP
+Text GLabel 5000 3850 0    50   Input ~ 0
+32K_XN
+Wire Wire Line
+	5000 3750 5300 3750
+Wire Wire Line
+	5000 3850 5300 3850
 $EndSCHEMATC

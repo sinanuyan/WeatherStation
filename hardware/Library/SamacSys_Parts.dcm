@@ -72,4 +72,10 @@ K
 F https://www.st.com/resource/en/datasheet/lps22hd.pdf
 $ENDCMP
 #
+$CMP ABS05-32.768KHZ-T
+D ABRACON - ABS05-32.768KHZ-T - CRYSTAL, 32.768KHZ, 12.5PF, 1.6 X 1MM
+K
+F 
+$ENDCMP
+#
 #End Doc Library
