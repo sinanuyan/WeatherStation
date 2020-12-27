@@ -63,4 +63,10 @@ D Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter
 F https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63
 $ENDCMP
 #
+$CMP ABM11AIG-40.000MHZ-4-1Z-T
+D Crystals 4pF 40MHz 10ppm AEC-Q200 -40C +125C
+K
+F https://componentsearchengine.com/Datasheets/1/ABM11AIG-40.000MHZ-4-1Z-T.pdf
+$ENDCMP
+#
 #End Doc Library
