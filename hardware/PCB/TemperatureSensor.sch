@@ -14,19 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4100 4700 1300 900 
+S 1000 1000 1300 900 
 U 5FBFD530
 F0 "PowerSupply" 50
 F1 "PowerSupply.sch" 50
-F2 "PWR_IN" I L 4100 4900 50 
-F3 "I_SET_BAT" I R 5400 4850 50 
-F4 "TEMP" I R 5400 5500 50 
-F5 "PWR_OUT" I R 5400 5150 50 
+F2 "I_SET_BAT" I R 2300 1150 50 
 $EndSheet
-Text Notes 5450 4800 0    50   ~ 0
-High: 500 mA\nLow: prgrammed charge\nFloating: 100 mA
-Text Notes 5450 5050 0    50   ~ 0
-3.3 V output
 $Sheet
 S 1450 5000 1100 1100
 U 5FC321F3

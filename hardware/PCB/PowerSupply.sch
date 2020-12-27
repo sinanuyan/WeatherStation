@@ -30,19 +30,6 @@ F 9 "BQ24092DGQR" H 4850 2500 50  0001 L CNN "Manufacturer_Part_Number"
 	1    3600 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C15
-U 1 1 5FC0418B
-P 1850 3400
-F 0 "C15" H 1965 3446 50  0000 L CNN
-F 1 "1u" H 1965 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 3250 50  0001 C CNN
-F 3 "~" H 1850 3400 50  0001 C CNN
-	1    1850 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 3100 1850 3250
 Connection ~ 1850 3100
 $Comp
 L power:GND #PWR024
@@ -57,47 +44,8 @@ F 3 "" H 2850 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 3300 2850 4100
-$Comp
-L power:GND #PWR022
-U 1 1 5FC0A0A3
-P 1850 3700
-F 0 "#PWR022" H 1850 3450 50  0001 C CNN
-F 1 "GND" H 1855 3527 50  0000 C CNN
-F 2 "" H 1850 3700 50  0001 C CNN
-F 3 "" H 1850 3700 50  0001 C CNN
-	1    1850 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5FC0ABBE
-P 2450 3500
-F 0 "R9" H 2520 3546 50  0000 L CNN
-F 1 "680" H 2520 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 3500 50  0001 C CNN
-F 3 "~" H 2450 3500 50  0001 C CNN
-	1    2450 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 3100 3600 3100
-Wire Wire Line
-	2450 3200 2450 3350
-Wire Wire Line
-	1850 3550 1850 3700
-Wire Wire Line
-	2450 3650 2450 3750
-$Comp
-L power:GND #PWR023
-U 1 1 5FC0FEEE
-P 2450 3750
-F 0 "#PWR023" H 2450 3500 50  0001 C CNN
-F 1 "GND" H 2455 3577 50  0000 C CNN
-F 2 "" H 2450 3750 50  0001 C CNN
-F 3 "" H 2450 3750 50  0001 C CNN
-	1    2450 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2450 3200 3600 3200
 Wire Wire Line
@@ -117,19 +65,6 @@ Wire Wire Line
 	3600 3400 3100 3400
 Wire Wire Line
 	3100 3400 3100 3500
-Wire Wire Line
-	3100 3800 3100 3900
-$Comp
-L power:GND #PWR025
-U 1 1 5FC12359
-P 3100 3900
-F 0 "#PWR025" H 3100 3650 50  0001 C CNN
-F 1 "GND" H 3105 3727 50  0000 C CNN
-F 2 "" H 3100 3900 50  0001 C CNN
-F 3 "" H 3100 3900 50  0001 C CNN
-	1    3100 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 5FC12BAC
@@ -217,226 +152,11 @@ Wire Wire Line
 	3500 5100 5150 5100
 Wire Wire Line
 	5150 5100 5150 5000
-Wire Wire Line
-	5900 3100 5900 5100
 Connection ~ 5150 5100
 Wire Wire Line
 	4300 4000 4300 4150
-$Comp
-L Device:C C16
-U 1 1 5FC2DE09
-P 6100 3750
-F 0 "C16" H 6215 3796 50  0000 L CNN
-F 1 "4.7u" H 6215 3705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6138 3600 50  0001 C CNN
-F 3 "~" H 6100 3750 50  0001 C CNN
-	1    6100 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 5FC2E9CD
-P 6100 4950
-F 0 "#PWR027" H 6100 4700 50  0001 C CNN
-F 1 "GND" H 6105 4777 50  0000 C CNN
-F 2 "" H 6100 4950 50  0001 C CNN
-F 3 "" H 6100 4950 50  0001 C CNN
-	1    6100 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 3600 6100 3100
-Connection ~ 6100 3100
-Wire Wire Line
-	6100 3100 6550 3100
-$Comp
-L ProjectLibrary:S2B-XH-A_LF__SN_ J3
-U 1 1 5FC2F7E2
-P 6550 4150
-F 0 "J3" H 7178 4146 50  0000 L CNN
-F 1 "S2B-XH-A_LF__SN_" H 7178 4055 50  0000 L CNN
-F 2 "SHDRRA2W80P0X250_1X2_740X1150X610P" H 7200 4250 50  0001 L CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 7200 4150 50  0001 L CNN
-F 4 "XH-2.5mm Header side entry 2 way JST XH Series, Series Number S2B, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" H 7200 4050 50  0001 L CNN "Description"
-F 5 "6.1" H 7200 3950 50  0001 L CNN "Height"
-F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 7200 3850 50  0001 L CNN "Manufacturer_Name"
-F 7 "S2B-XH-A(LF)(SN)" H 7200 3750 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "S2B-XH-A(LF)(SN)" H 7200 3650 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/s2b-xh-a-lf-sn/jst-manufacturing" H 7200 3550 50  0001 L CNN "Arrow Price/Stock"
-F 10 "" H 7200 3450 50  0001 L CNN "Mouser Part Number"
-F 11 "" H 7200 3350 50  0001 L CNN "Mouser Price/Stock"
-	1    6550 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L ProjectLibrary:TPS62291DRVR IC4
-U 1 1 5FC09EEE
-P 8600 3100
-F 0 "IC4" H 9200 3365 50  0000 C CNN
-F 1 "TPS62291DRVR" H 9200 3274 50  0000 C CNN
-F 2 "SON65P200X200X80-7N" H 9650 3200 50  0001 L CNN
-F 3 "https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63" H 9650 3100 50  0001 L CNN
-F 4 "Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter" H 9650 3000 50  0001 L CNN "Description"
-F 5 "0.8" H 9650 2900 50  0001 L CNN "Height"
-F 6 "595-TPS62291DRVR" H 9650 2800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62291DRVR?qs=WxL8HmPi5r5oemxPY8jLwQ%3D%3D" H 9650 2700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 9650 2600 50  0001 L CNN "Manufacturer_Name"
-F 9 "TPS62291DRVR" H 9650 2500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    8600 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR028
-U 1 1 5FC12B1D
-P 6900 4000
-F 0 "#PWR028" H 6900 3750 50  0001 C CNN
-F 1 "GND" H 6905 3827 50  0000 C CNN
-F 2 "" H 6900 4000 50  0001 C CNN
-F 3 "" H 6900 4000 50  0001 C CNN
-	1    6900 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C17
-U 1 1 5FC139FA
-P 6900 3500
-F 0 "C17" H 7015 3546 50  0000 L CNN
-F 1 "10u" H 7015 3455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 3350 50  0001 C CNN
-F 3 "~" H 6900 3500 50  0001 C CNN
-	1    6900 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6900 4000 6900 3750
-Wire Wire Line
-	6900 3350 6900 3200
-Wire Wire Line
-	6900 3200 7250 3200
-Wire Wire Line
-	7400 3100 7200 3100
-Wire Wire Line
-	7200 3100 7200 3750
-Wire Wire Line
-	7200 3750 6900 3750
-Connection ~ 6900 3750
-Wire Wire Line
-	6900 3750 6900 3650
-Wire Wire Line
-	7400 3300 7250 3300
-Wire Wire Line
-	7250 3300 7250 3200
-Connection ~ 7250 3200
-Wire Wire Line
-	7250 3200 7400 3200
-Wire Wire Line
-	8600 3200 8800 3200
-$Comp
-L power:GND #PWR030
-U 1 1 5FC1A4A2
-P 8800 4350
-F 0 "#PWR030" H 8800 4100 50  0001 C CNN
-F 1 "GND" H 8805 4177 50  0000 C CNN
-F 2 "" H 8800 4350 50  0001 C CNN
-F 3 "" H 8800 4350 50  0001 C CNN
-	1    8800 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR029
-U 1 1 5FC1D2CA
-P 8000 4000
-F 0 "#PWR029" H 8000 3750 50  0001 C CNN
-F 1 "GND" H 8005 3827 50  0000 C CNN
-F 2 "" H 8000 4000 50  0001 C CNN
-F 3 "" H 8000 4000 50  0001 C CNN
-	1    8000 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8000 3800 8000 4000
-$Comp
-L Device:L L2
-U 1 1 5FC1EB27
-P 8900 3100
-F 0 "L2" V 9090 3100 50  0000 C CNN
-F 1 "2.2u" V 8999 3100 50  0000 C CNN
-F 2 "Inductor_SMD:L_Coilcraft_LPS4018" H 8900 3100 50  0001 C CNN
-F 3 "~" H 8900 3100 50  0001 C CNN
-F 4 "994-LPS4018-222MRB " V 8900 3100 50  0001 C CNN "Mouser Part Number"
-	1    8900 3100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8600 3100 8750 3100
-$Comp
-L Device:C C18
-U 1 1 5FC33F95
-P 9500 3400
-F 0 "C18" H 9615 3446 50  0000 L CNN
-F 1 "10u" H 9615 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9538 3250 50  0001 C CNN
-F 3 "~" H 9500 3400 50  0001 C CNN
-	1    9500 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 3400 5000 3400
-Wire Wire Line
-	6100 3900 6100 4050
-Wire Wire Line
-	6550 3100 6550 4150
-Wire Wire Line
-	6450 4150 6450 4050
-Wire Wire Line
-	6450 4050 6100 4050
-Connection ~ 6100 4050
-Wire Wire Line
-	6100 4050 6100 4950
-Wire Wire Line
-	7200 3100 6550 3100
-Connection ~ 7200 3100
-Connection ~ 6550 3100
-Wire Wire Line
-	9500 3250 9500 3100
-$Comp
-L power:GND #PWR031
-U 1 1 5FC4D9AD
-P 9500 4350
-F 0 "#PWR031" H 9500 4100 50  0001 C CNN
-F 1 "GND" H 9505 4177 50  0000 C CNN
-F 2 "" H 9500 4350 50  0001 C CNN
-F 3 "" H 9500 4350 50  0001 C CNN
-	1    9500 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 4350 9500 3550
-Wire Wire Line
-	9050 3100 9200 3100
-Wire Wire Line
-	8800 3200 8800 4350
-Wire Wire Line
-	9200 3300 9200 3100
-Wire Wire Line
-	8600 3300 9200 3300
-Connection ~ 9200 3100
-Wire Wire Line
-	9200 3100 9500 3100
-Connection ~ 9500 3100
-$Comp
-L power:+3V3 #PWR033
-U 1 1 5FCF0BC9
-P 9500 2950
-F 0 "#PWR033" H 9500 2800 50  0001 C CNN
-F 1 "+3V3" H 9515 3123 50  0000 C CNN
-F 2 "" H 9500 2950 50  0001 C CNN
-F 3 "" H 9500 2950 50  0001 C CNN
-	1    9500 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 2950 9500 3100
 $Comp
 L power:+5V #PWR01
 U 1 1 5FD7BBDC
@@ -450,43 +170,329 @@ F 3 "" H 1850 2900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1850 2900 1850 3100
+Wire Wire Line
+	5000 3200 5800 3200
+Text Notes 5850 3000 0    50   ~ 0
+3.3 V output
+Text Notes 3850 2750 0    50   ~ 0
+High: 500 mA\nLow: prgrammed charge\nFloating: 100 mA
+$Comp
+L ProjectLibrary:TPS62291DRVR IC4
+U 1 1 5FC09EEE
+P 9600 3000
+F 0 "IC4" H 10200 3265 50  0000 C CNN
+F 1 "TPS62291DRVR" H 10200 3174 50  0000 C CNN
+F 2 "SON65P200X200X80-7N" H 10650 3100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63" H 10650 3000 50  0001 L CNN
+F 4 "Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter" H 10650 2900 50  0001 L CNN "Description"
+F 5 "0.8" H 10650 2800 50  0001 L CNN "Height"
+F 6 "595-TPS62291DRVR" H 10650 2700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62291DRVR?qs=WxL8HmPi5r5oemxPY8jLwQ%3D%3D" H 10650 2600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 10650 2500 50  0001 L CNN "Manufacturer_Name"
+F 9 "TPS62291DRVR" H 10650 2400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9600 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 5FC12B1D
+P 7900 3900
+F 0 "#PWR028" H 7900 3650 50  0001 C CNN
+F 1 "GND" H 7905 3727 50  0000 C CNN
+F 2 "" H 7900 3900 50  0001 C CNN
+F 3 "" H 7900 3900 50  0001 C CNN
+	1    7900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5FC139FA
+P 7900 3400
+F 0 "C17" H 8015 3446 50  0000 L CNN
+F 1 "10u" H 8015 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7938 3250 50  0001 C CNN
+F 3 "~" H 7900 3400 50  0001 C CNN
+	1    7900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3250 7900 3100
+Wire Wire Line
+	8400 3200 8250 3200
+Wire Wire Line
+	8250 3200 8250 3100
+Connection ~ 8250 3100
+Wire Wire Line
+	8250 3100 8400 3100
+Wire Wire Line
+	9600 3100 9800 3100
+$Comp
+L power:GND #PWR029
+U 1 1 5FC1D2CA
+P 9000 3900
+F 0 "#PWR029" H 9000 3650 50  0001 C CNN
+F 1 "GND" H 9005 3727 50  0000 C CNN
+F 2 "" H 9000 3900 50  0001 C CNN
+F 3 "" H 9000 3900 50  0001 C CNN
+	1    9000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3700 9000 3900
+$Comp
+L Device:L L2
+U 1 1 5FC1EB27
+P 9900 3000
+F 0 "L2" V 10090 3000 50  0000 C CNN
+F 1 "2.2u" V 9999 3000 50  0000 C CNN
+F 2 "Inductor_SMD:L_Coilcraft_LPS4018" H 9900 3000 50  0001 C CNN
+F 3 "~" H 9900 3000 50  0001 C CNN
+F 4 "994-LPS4018-222MRB " V 9900 3000 50  0001 C CNN "Mouser Part Number"
+	1    9900 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 3000 9750 3000
+Wire Wire Line
+	10050 3000 10200 3000
+Wire Wire Line
+	10200 3200 10200 3000
+Wire Wire Line
+	9600 3200 10200 3200
+Connection ~ 10200 3000
+Wire Wire Line
+	10200 3000 10500 3000
+Connection ~ 10500 3000
+$Comp
+L power:+3V3 #PWR033
+U 1 1 5FCF0BC9
+P 10500 2850
+F 0 "#PWR033" H 10500 2700 50  0001 C CNN
+F 1 "+3V3" H 10515 3023 50  0000 C CNN
+F 2 "" H 10500 2850 50  0001 C CNN
+F 3 "" H 10500 2850 50  0001 C CNN
+	1    10500 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2850 10500 3000
+$Comp
+L Device:C C16
+U 1 1 5FC2DE09
+P 6550 3750
+F 0 "C16" H 6665 3796 50  0000 L CNN
+F 1 "4.7u" H 6665 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 3600 50  0001 C CNN
+F 3 "~" H 6550 3750 50  0001 C CNN
+	1    6550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5FC2E9CD
+P 6550 4950
+F 0 "#PWR027" H 6550 4700 50  0001 C CNN
+F 1 "GND" H 6555 4777 50  0000 C CNN
+F 2 "" H 6550 4950 50  0001 C CNN
+F 3 "" H 6550 4950 50  0001 C CNN
+	1    6550 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3600 6550 3100
+$Comp
+L ProjectLibrary:S2B-XH-A_LF__SN_ J3
+U 1 1 5FC2F7E2
+P 7000 4150
+F 0 "J3" H 7628 4146 50  0000 L CNN
+F 1 "S2B-XH-A_LF__SN_" H 7628 4055 50  0000 L CNN
+F 2 "SHDRRA2W80P0X250_1X2_740X1150X610P" H 7650 4250 50  0001 L CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 7650 4150 50  0001 L CNN
+F 4 "XH-2.5mm Header side entry 2 way JST XH Series, Series Number S2B, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A" H 7650 4050 50  0001 L CNN "Description"
+F 5 "6.1" H 7650 3950 50  0001 L CNN "Height"
+F 6 "JST (JAPAN SOLDERLESS TERMINALS)" H 7650 3850 50  0001 L CNN "Manufacturer_Name"
+F 7 "S2B-XH-A(LF)(SN)" H 7650 3750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "S2B-XH-A(LF)(SN)" H 7650 3650 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/s2b-xh-a-lf-sn/jst-manufacturing" H 7650 3550 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 7650 3450 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 7650 3350 50  0001 L CNN "Mouser Price/Stock"
+	1    7000 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 3900 6550 4050
+Wire Wire Line
+	7000 3100 7000 4150
+Wire Wire Line
+	6900 4150 6900 4050
+Wire Wire Line
+	6900 4050 6550 4050
+Connection ~ 6550 4050
+Wire Wire Line
+	6550 4050 6550 4950
+Connection ~ 6550 3100
+Wire Wire Line
+	6550 3100 7000 3100
+Wire Wire Line
+	6050 3100 6050 5100
+Wire Wire Line
+	6050 3100 6550 3100
+Connection ~ 6050 3100
+Wire Wire Line
+	5000 3100 6050 3100
+Wire Wire Line
+	5150 5100 6050 5100
 $Comp
 L Device:R R1
 U 1 1 5FD81F10
-P 5650 4150
-F 0 "R1" H 5720 4196 50  0000 L CNN
-F 1 "10k" H 5720 4105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 4150 50  0001 C CNN
-F 3 "~" H 5650 4150 50  0001 C CNN
-	1    5650 4150
+P 5800 4150
+F 0 "R1" H 5870 4196 50  0000 L CNN
+F 1 "10k" H 5870 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 4150 50  0001 C CNN
+F 3 "~" H 5800 4150 50  0001 C CNN
+	1    5800 4150
 	1    0    0    -1  
 $EndComp
-Connection ~ 5900 3100
-Wire Wire Line
-	5900 3100 6100 3100
-Wire Wire Line
-	5000 3100 5900 3100
-Wire Wire Line
-	5150 5100 5900 5100
-Wire Wire Line
-	5800 3200 5800 3800
-Wire Wire Line
-	5800 3800 5650 3800
-Wire Wire Line
-	5650 3800 5650 4000
-Wire Wire Line
-	5000 3200 5800 3200
 $Comp
 L power:GND #PWR032
 U 1 1 5FD87B54
-P 5650 4500
-F 0 "#PWR032" H 5650 4250 50  0001 C CNN
-F 1 "GND" H 5655 4327 50  0000 C CNN
-F 2 "" H 5650 4500 50  0001 C CNN
-F 3 "" H 5650 4500 50  0001 C CNN
-	1    5650 4500
+P 5800 4500
+F 0 "#PWR032" H 5800 4250 50  0001 C CNN
+F 1 "GND" H 5805 4327 50  0000 C CNN
+F 2 "" H 5800 4500 50  0001 C CNN
+F 3 "" H 5800 4500 50  0001 C CNN
+	1    5800 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 4300 5650 4500
+	5800 4300 5800 4500
+Wire Wire Line
+	5800 3200 5800 4000
+$Comp
+L power:GND #PWR023
+U 1 1 5FC0FEEE
+P 2450 4100
+F 0 "#PWR023" H 2450 3850 50  0001 C CNN
+F 1 "GND" H 2455 3927 50  0000 C CNN
+F 2 "" H 2450 4100 50  0001 C CNN
+F 3 "" H 2450 4100 50  0001 C CNN
+	1    2450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5FC12359
+P 3100 4100
+F 0 "#PWR025" H 3100 3850 50  0001 C CNN
+F 1 "GND" H 3105 3927 50  0000 C CNN
+F 2 "" H 3100 4100 50  0001 C CNN
+F 3 "" H 3100 4100 50  0001 C CNN
+	1    3100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5FC0A0A3
+P 1850 4100
+F 0 "#PWR022" H 1850 3850 50  0001 C CNN
+F 1 "GND" H 1855 3927 50  0000 C CNN
+F 2 "" H 1850 4100 50  0001 C CNN
+F 3 "" H 1850 4100 50  0001 C CNN
+	1    1850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3800 3100 4100
+$Comp
+L Device:R R9
+U 1 1 5FC0ABBE
+P 2450 3650
+F 0 "R9" H 2520 3696 50  0000 L CNN
+F 1 "680" H 2520 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 3650 50  0001 C CNN
+F 3 "~" H 2450 3650 50  0001 C CNN
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3200 2450 3500
+Wire Wire Line
+	2450 3800 2450 4100
+$Comp
+L Device:C C15
+U 1 1 5FC0418B
+P 1850 3600
+F 0 "C15" H 1965 3646 50  0000 L CNN
+F 1 "1u" H 1965 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1888 3450 50  0001 C CNN
+F 3 "~" H 1850 3600 50  0001 C CNN
+	1    1850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3750 1850 4100
+Wire Wire Line
+	1850 3100 1850 3450
+$Comp
+L power:GND #PWR030
+U 1 1 5FC1A4A2
+P 9800 3900
+F 0 "#PWR030" H 9800 3650 50  0001 C CNN
+F 1 "GND" H 9805 3727 50  0000 C CNN
+F 2 "" H 9800 3900 50  0001 C CNN
+F 3 "" H 9800 3900 50  0001 C CNN
+	1    9800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5FC4D9AD
+P 10500 3900
+F 0 "#PWR031" H 10500 3650 50  0001 C CNN
+F 1 "GND" H 10505 3727 50  0000 C CNN
+F 2 "" H 10500 3900 50  0001 C CNN
+F 3 "" H 10500 3900 50  0001 C CNN
+	1    10500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5FC33F95
+P 10500 3400
+F 0 "C18" H 10615 3446 50  0000 L CNN
+F 1 "10u" H 10615 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10538 3250 50  0001 C CNN
+F 3 "~" H 10500 3400 50  0001 C CNN
+	1    10500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3100 9800 3900
+Wire Wire Line
+	10500 3000 10500 3250
+Wire Wire Line
+	10500 3550 10500 3900
+Wire Wire Line
+	7900 3550 7900 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5FEFB46F
+P 8350 3900
+F 0 "#PWR?" H 8350 3650 50  0001 C CNN
+F 1 "GND" H 8355 3727 50  0000 C CNN
+F 2 "" H 8350 3900 50  0001 C CNN
+F 3 "" H 8350 3900 50  0001 C CNN
+	1    8350 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3000 8400 3000
+Wire Wire Line
+	8350 3000 8350 3900
+Connection ~ 7000 3100
+Wire Wire Line
+	7000 3100 7900 3100
+Connection ~ 7900 3100
+Wire Wire Line
+	7900 3100 8250 3100
 $EndSCHEMATC
