@@ -391,7 +391,19 @@ Wire Wire Line
 Wire Wire Line
 	7650 3200 7650 3100
 Wire Wire Line
-	2700 4100 5200 4100
+	3050 4100 2700 4100
 Wire Wire Line
-	2700 4200 5200 4200
+	3050 4200 2700 4200
+Text Label 2750 4100 0    50   ~ 0
+USB_D_P
+Text Label 2750 4200 0    50   ~ 0
+USB_D_M
+Wire Wire Line
+	4350 4100 5200 4100
+Wire Wire Line
+	4350 4200 5200 4200
+Text Label 4350 4100 0    50   ~ 0
+USB_D_M
+Text Label 4350 4200 0    50   ~ 0
+USB_D_P
 $EndSCHEMATC
