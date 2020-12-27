@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -924,109 +924,99 @@ Wire Wire Line
 Wire Wire Line
 	6100 1800 6100 1950
 $Comp
-L ProjectLibrary:SS8050-G Q?
+L ProjectLibrary:SS8050-G Q2
 U 1 1 5FFFFA03
-P 2600 4700
-F 0 "Q?" H 3138 4746 50  0000 L CNN
-F 1 "SS8050-G" H 3138 4655 50  0000 L CNN
-F 2 "SOT95P240X115-3N" H 3150 4550 50  0001 L CNN
-F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 3150 4450 50  0001 L CNN
-F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 3150 4350 50  0001 L CNN "Description"
-F 5 "1.15" H 3150 4250 50  0001 L CNN "Height"
-F 6 "750-SS8050-G" H 3150 4150 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G/?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D" H 3150 4050 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Comchip Technology" H 3150 3950 50  0001 L CNN "Manufacturer_Name"
-F 9 "SS8050-G" H 3150 3850 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2600 4700
+P 9250 1050
+F 0 "Q2" H 9788 1096 50  0000 L CNN
+F 1 "SS8050-G" H 9788 1005 50  0000 L CNN
+F 2 "SOT95P240X115-3N" H 9800 900 50  0001 L CNN
+F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 9800 800 50  0001 L CNN
+F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 9800 700 50  0001 L CNN "Description"
+F 5 "1.15" H 9800 600 50  0001 L CNN "Height"
+F 6 "750-SS8050-G" H 9800 500 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G/?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D" H 9800 400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Comchip Technology" H 9800 300 50  0001 L CNN "Manufacturer_Name"
+F 9 "SS8050-G" H 9800 200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9250 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L ProjectLibrary:SS8050-G Q?
+L ProjectLibrary:SS8050-G Q3
 U 1 1 60008ECC
-P 2600 5800
-F 0 "Q?" H 3138 5846 50  0000 L CNN
-F 1 "SS8050-G" H 3138 5755 50  0000 L CNN
-F 2 "SOT95P240X115-3N" H 3150 5650 50  0001 L CNN
-F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 3150 5550 50  0001 L CNN
-F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 3150 5450 50  0001 L CNN "Description"
-F 5 "1.15" H 3150 5350 50  0001 L CNN "Height"
-F 6 "750-SS8050-G" H 3150 5250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G/?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D" H 3150 5150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Comchip Technology" H 3150 5050 50  0001 L CNN "Manufacturer_Name"
-F 9 "SS8050-G" H 3150 4950 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2600 5800
+P 9250 2150
+F 0 "Q3" H 9788 2196 50  0000 L CNN
+F 1 "SS8050-G" H 9788 2105 50  0000 L CNN
+F 2 "SOT95P240X115-3N" H 9800 2000 50  0001 L CNN
+F 3 "http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf" H 9800 1900 50  0001 L CNN
+F 4 "Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V" H 9800 1800 50  0001 L CNN "Description"
+F 5 "1.15" H 9800 1700 50  0001 L CNN "Height"
+F 6 "750-SS8050-G" H 9800 1600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G/?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D" H 9800 1500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Comchip Technology" H 9800 1400 50  0001 L CNN "Manufacturer_Name"
+F 9 "SS8050-G" H 9800 1300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9250 2150
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6000F441
-P 2350 4700
+P 9000 1050
 AR Path="/6000F441" Ref="R?"  Part="1" 
-AR Path="/5FCFD0E2/6000F441" Ref="R?"  Part="1" 
+AR Path="/5FCFD0E2/6000F441" Ref="R20"  Part="1" 
 AR Path="/5FE895CA/6000F441" Ref="R?"  Part="1" 
-F 0 "R?" V 2450 4700 50  0000 L CNN
-F 1 "10k" V 2250 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 4700 50  0001 C CNN
-F 3 "~" H 2350 4700 50  0001 C CNN
-	1    2350 4700
+F 0 "R20" V 9100 1050 50  0000 L CNN
+F 1 "10k" V 8900 1000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8930 1050 50  0001 C CNN
+F 3 "~" H 9000 1050 50  0001 C CNN
+	1    9000 1050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60013917
-P 2350 5800
+P 9000 2150
 AR Path="/60013917" Ref="R?"  Part="1" 
-AR Path="/5FCFD0E2/60013917" Ref="R?"  Part="1" 
+AR Path="/5FCFD0E2/60013917" Ref="R21"  Part="1" 
 AR Path="/5FE895CA/60013917" Ref="R?"  Part="1" 
-F 0 "R?" V 2450 5800 50  0000 L CNN
-F 1 "10k" V 2250 5750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 5800 50  0001 C CNN
-F 3 "~" H 2350 5800 50  0001 C CNN
-	1    2350 5800
+F 0 "R21" V 9100 2150 50  0000 L CNN
+F 1 "10k" V 8900 2100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8930 2150 50  0001 C CNN
+F 3 "~" H 9000 2150 50  0001 C CNN
+	1    9000 2150
 	0    -1   -1   0   
 $EndComp
-Text HLabel 1500 5800 0    50   Input ~ 0
+Text HLabel 8350 2150 0    50   Input ~ 0
 ESP_UART_RTS
-Text HLabel 1500 4700 0    50   Input ~ 0
+Text HLabel 8350 1050 0    50   Input ~ 0
 ESP_UART_DTR
 Wire Wire Line
-	2500 4700 2600 4700
+	9150 1050 9250 1050
 Wire Wire Line
-	2500 5800 2600 5800
+	9150 2150 9250 2150
 Wire Wire Line
-	1500 4700 2000 4700
+	9650 1850 9650 1700
 Wire Wire Line
-	1500 5800 1850 5800
+	9650 1700 8650 1700
 Wire Wire Line
-	3000 5500 3000 5350
+	8650 1700 8650 1050
 Wire Wire Line
-	3000 5350 2000 5350
+	8650 1050 8850 1050
 Wire Wire Line
-	2000 5350 2000 4700
-Connection ~ 2000 4700
+	9650 1350 9650 1500
 Wire Wire Line
-	2000 4700 2200 4700
+	9650 1500 8500 1500
 Wire Wire Line
-	3000 5000 3000 5150
+	8500 1500 8500 2150
 Wire Wire Line
-	3000 5150 1850 5150
-Wire Wire Line
-	1850 5150 1850 5800
-Connection ~ 1850 5800
-Wire Wire Line
-	1850 5800 2200 5800
-Text GLabel 3350 4300 2    50   Output ~ 0
+	8500 2150 8850 2150
+Text GLabel 10800 650  2    50   Output ~ 0
 ESP_EN
 Wire Wire Line
-	3000 4400 3000 4300
-Wire Wire Line
-	3000 4300 3350 4300
-Text GLabel 3350 6150 2    50   Output ~ 0
+	9650 750  9650 650 
+Text GLabel 10700 2500 2    50   Output ~ 0
 ESP_BOOT0
 Wire Wire Line
-	3350 6150 3000 6150
-Wire Wire Line
-	3000 6150 3000 6100
+	9650 2500 9650 2450
 Text GLabel 6500 4950 3    50   Input ~ 0
 ESP_BOOT0
 Wire Wire Line
@@ -1037,4 +1027,186 @@ Text GLabel 4800 3450 0    50   Input ~ 0
 ESP_EN
 Wire Wire Line
 	4800 3450 5300 3450
+$Comp
+L ProjectLibrary:PTS815_SJM_250_SMTR_LFS S?
+U 1 1 6008AFBA
+P 8650 3100
+F 0 "S?" H 9250 3365 50  0000 C CNN
+F 1 "PTS815_SJM_250_SMTR_LFS" H 9250 3274 50  0000 C CNN
+F 2 "PTS815SJM250SMTRLFS" H 9700 3200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PTS815 SJM 250 SMTR LFS.pdf" H 9700 3100 50  0001 L CNN
+F 4 "Tactile Switches Tact Switch, 12 VDC, 50 mA, 4.2x3.2, 2.5mm H, 180gf, J leads" H 9700 3000 50  0001 L CNN "Description"
+F 5 "2.7" H 9700 2900 50  0001 L CNN "Height"
+F 6 "611-PTS815SJM250SMTR" H 9700 2800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CK/PTS815-SJM-250-SMTR-LFS?qs=ahcBuItHZ3xKWmfV%2F2E6bA%3D%3D" H 9700 2700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "C & K COMPONENTS" H 9700 2600 50  0001 L CNN "Manufacturer_Name"
+F 9 "PTS815 SJM 250 SMTR LFS" H 9700 2500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ProjectLibrary:PTS815_SJM_250_SMTR_LFS S?
+U 1 1 600A5C4C
+P 8650 3650
+F 0 "S?" H 9250 3915 50  0000 C CNN
+F 1 "PTS815_SJM_250_SMTR_LFS" H 9250 3824 50  0000 C CNN
+F 2 "PTS815SJM250SMTRLFS" H 9700 3750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PTS815 SJM 250 SMTR LFS.pdf" H 9700 3650 50  0001 L CNN
+F 4 "Tactile Switches Tact Switch, 12 VDC, 50 mA, 4.2x3.2, 2.5mm H, 180gf, J leads" H 9700 3550 50  0001 L CNN "Description"
+F 5 "2.7" H 9700 3450 50  0001 L CNN "Height"
+F 6 "611-PTS815SJM250SMTR" H 9700 3350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CK/PTS815-SJM-250-SMTR-LFS?qs=ahcBuItHZ3xKWmfV%2F2E6bA%3D%3D" H 9700 3250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "C & K COMPONENTS" H 9700 3150 50  0001 L CNN "Manufacturer_Name"
+F 9 "PTS815 SJM 250 SMTR LFS" H 9700 3050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 600C0A7A
+P 10150 3900
+AR Path="/600C0A7A" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/600C0A7A" Ref="C?"  Part="1" 
+AR Path="/5FE895CA/600C0A7A" Ref="C?"  Part="1" 
+F 0 "C?" H 10265 3946 50  0000 L CNN
+F 1 "100n" H 10265 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10188 3750 50  0001 C CNN
+F 3 "~" H 10150 3900 50  0001 C CNN
+	1    10150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600C0A80
+P 10150 4200
+AR Path="/600C0A80" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/600C0A80" Ref="#PWR?"  Part="1" 
+AR Path="/5FE895CA/600C0A80" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10150 3950 50  0001 C CNN
+F 1 "GND" H 10155 4027 50  0000 C CNN
+F 2 "" H 10150 4200 50  0001 C CNN
+F 3 "" H 10150 4200 50  0001 C CNN
+	1    10150 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 4050 10150 4200
+Wire Wire Line
+	8350 1050 8650 1050
+Connection ~ 8650 1050
+Wire Wire Line
+	8350 2150 8500 2150
+Connection ~ 8500 2150
+Wire Wire Line
+	9650 650  10450 650 
+Wire Wire Line
+	9650 2500 10650 2500
+Wire Wire Line
+	10450 3100 10450 650 
+Connection ~ 10450 650 
+Wire Wire Line
+	10450 650  10800 650 
+Wire Wire Line
+	10650 3650 10650 2500
+Connection ~ 10650 2500
+Wire Wire Line
+	10650 2500 10700 2500
+$Comp
+L Device:C C?
+U 1 1 601131CA
+P 10650 3900
+AR Path="/601131CA" Ref="C?"  Part="1" 
+AR Path="/5FCFD0E2/601131CA" Ref="C?"  Part="1" 
+AR Path="/5FE895CA/601131CA" Ref="C?"  Part="1" 
+F 0 "C?" H 10765 3946 50  0000 L CNN
+F 1 "100n" H 10765 3855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10688 3750 50  0001 C CNN
+F 3 "~" H 10650 3900 50  0001 C CNN
+	1    10650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601131D0
+P 10650 4200
+AR Path="/601131D0" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/601131D0" Ref="#PWR?"  Part="1" 
+AR Path="/5FE895CA/601131D0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10650 3950 50  0001 C CNN
+F 1 "GND" H 10655 4027 50  0000 C CNN
+F 2 "" H 10650 4200 50  0001 C CNN
+F 3 "" H 10650 4200 50  0001 C CNN
+	1    10650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 4050 10650 4200
+Wire Wire Line
+	9850 3100 10150 3100
+Wire Wire Line
+	9850 3650 10650 3650
+Wire Wire Line
+	10150 3750 10150 3100
+Connection ~ 10150 3100
+Wire Wire Line
+	10150 3100 10450 3100
+Wire Wire Line
+	10650 3750 10650 3650
+Connection ~ 10650 3650
+$Comp
+L power:GND #PWR?
+U 1 1 60138371
+P 8500 4250
+AR Path="/60138371" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/60138371" Ref="#PWR?"  Part="1" 
+AR Path="/5FE895CA/60138371" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 4000 50  0001 C CNN
+F 1 "GND" H 8505 4077 50  0000 C CNN
+F 2 "" H 8500 4250 50  0001 C CNN
+F 3 "" H 8500 4250 50  0001 C CNN
+	1    8500 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3100 8650 3100
+Wire Wire Line
+	8650 3200 8500 3200
+Connection ~ 8500 3200
+Wire Wire Line
+	8500 3200 8500 3100
+Wire Wire Line
+	8650 3650 8500 3650
+Connection ~ 8500 3650
+Wire Wire Line
+	8500 3650 8500 3200
+Wire Wire Line
+	8650 3750 8500 3750
+Wire Wire Line
+	8500 3750 8500 3650
+Connection ~ 8500 3750
+Wire Wire Line
+	8500 3750 8500 4250
+$Comp
+L power:GND #PWR?
+U 1 1 6015F190
+P 9950 4200
+AR Path="/6015F190" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/6015F190" Ref="#PWR?"  Part="1" 
+AR Path="/5FE895CA/6015F190" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9950 3950 50  0001 C CNN
+F 1 "GND" H 9955 4027 50  0000 C CNN
+F 2 "" H 9950 4200 50  0001 C CNN
+F 3 "" H 9950 4200 50  0001 C CNN
+	1    9950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3200 9950 3200
+Wire Wire Line
+	9950 3200 9950 3750
+Wire Wire Line
+	9850 3750 9950 3750
+Connection ~ 9950 3750
+Wire Wire Line
+	9950 3750 9950 4200
 $EndSCHEMATC
