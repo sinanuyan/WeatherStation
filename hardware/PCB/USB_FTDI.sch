@@ -67,19 +67,6 @@ Wire Wire Line
 	3050 3900 3050 3750
 NoConn ~ 2700 4300
 $Comp
-L Interface_USB:FT230XQ U?
-U 1 1 5FE9F19A
-P 5900 4200
-AR Path="/5FE9F19A" Ref="U?"  Part="1" 
-AR Path="/5FE9624E/5FE9F19A" Ref="U2"  Part="1" 
-F 0 "U2" H 5900 5081 50  0000 C CNN
-F 1 "FT230XQ" H 5900 4990 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm" H 7250 3600 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 5900 4200 50  0001 C CNN
-	1    5900 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5FE9F1A0
 P 6350 3100
@@ -262,32 +249,25 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5FE9F1FC
-P 5800 5200
+P 5800 5600
 AR Path="/5FE9F1FC" Ref="#PWR?"  Part="1" 
 AR Path="/5FE9624E/5FE9F1FC" Ref="#PWR082"  Part="1" 
-F 0 "#PWR082" H 5800 4950 50  0001 C CNN
-F 1 "GND" H 5805 5027 50  0000 C CNN
-F 2 "" H 5800 5200 50  0001 C CNN
-F 3 "" H 5800 5200 50  0001 C CNN
-	1    5800 5200
+F 0 "#PWR082" H 5800 5350 50  0001 C CNN
+F 1 "GND" H 5805 5427 50  0000 C CNN
+F 2 "" H 5800 5600 50  0001 C CNN
+F 3 "" H 5800 5600 50  0001 C CNN
+	1    5800 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 4900 5800 5050
+	5800 5300 5800 5450
 Wire Wire Line
-	5900 5050 5800 5050
-Connection ~ 5800 5050
+	5900 5450 5800 5450
+Connection ~ 5800 5450
 Wire Wire Line
-	5800 5050 5800 5200
+	5800 5450 5800 5600
 Wire Wire Line
-	5900 4900 5900 5050
-Wire Wire Line
-	6000 4900 6000 5050
-Wire Wire Line
-	6000 5050 5900 5050
-Connection ~ 5900 5050
-NoConn ~ 6600 4000
-NoConn ~ 6600 4100
+	5900 5300 5900 5450
 Wire Wire Line
 	6800 3900 6600 3900
 $Comp
@@ -406,4 +386,28 @@ Wire Wire Line
 	6600 3800 6800 3800
 Text HLabel 6800 3900 2    50   Input ~ 0
 ESP_UART_TX
+Wire Wire Line
+	5900 5450 6000 5450
+Wire Wire Line
+	6000 5450 6000 5300
+Connection ~ 5900 5450
+Text HLabel 6800 4000 2    50   Output ~ 0
+ESP_UART_RTS
+Text HLabel 6800 4100 2    50   Output ~ 0
+ESP_UART_CTS
+$Comp
+L Interface_USB:FT231XQ U?
+U 1 1 5FFEC088
+P 5900 4400
+F 0 "U?" H 5900 5481 50  0000 C CNN
+F 1 "FT231XQ" H 5900 5390 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" H 7250 3600 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 5900 4400 50  0001 C CNN
+	1    5900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4000 6800 4000
+Wire Wire Line
+	6600 4100 6800 4100
 $EndSCHEMATC

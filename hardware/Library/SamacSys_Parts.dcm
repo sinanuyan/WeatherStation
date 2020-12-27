@@ -69,4 +69,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/ABM11AIG-40.000MHZ-4-1Z-T.pdf
 $ENDCMP
 #
+$CMP FT231XQ-R
+D FTDI Chip FT231XQ-R, USB Transceiver
+K
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+$ENDCMP
+#
 #End Doc Library
