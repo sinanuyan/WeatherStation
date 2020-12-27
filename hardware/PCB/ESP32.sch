@@ -450,28 +450,10 @@ Wire Wire Line
 	1650 3000 1400 3000
 Wire Wire Line
 	1400 3050 1400 3000
-Connection ~ 1400 3000
-Wire Wire Line
-	1400 3000 1000 3000
 Wire Wire Line
 	2150 3000 2350 3000
 Wire Wire Line
 	2350 3000 2350 3050
-$Comp
-L Device:Antenna AE1
-U 1 1 5FD37ECF
-P 1000 2700
-AR Path="/5FCFD0E2/5FD37ECF" Ref="AE1"  Part="1" 
-AR Path="/5FE895CA/5FD37ECF" Ref="AE?"  Part="1" 
-F 0 "AE1" H 1080 2689 50  0000 L CNN
-F 1 "Antenna" H 1080 2598 50  0000 L CNN
-F 2 "" H 1000 2700 50  0001 C CNN
-F 3 "~" H 1000 2700 50  0001 C CNN
-	1    1000 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1000 2900 1000 3000
 Wire Wire Line
 	5300 2750 2350 2750
 Wire Wire Line
@@ -782,4 +764,36 @@ Wire Wire Line
 	5000 3750 5300 3750
 Wire Wire Line
 	5000 3850 5300 3850
+$Comp
+L ProjectLibrary:ESP32_Antenna U3
+U 1 1 5FE9520D
+P 650 2950
+F 0 "U3" H 833 3125 50  0000 C CNN
+F 1 "ESP32_Antenna" H 833 3034 50  0000 C CNN
+F 2 "RF_Antenna:Texas_SWRA117D_2.4GHz_Right" H 650 3000 50  0001 C CNN
+F 3 "" H 650 3000 50  0001 C CNN
+	1    650  2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3000 1400 3000
+Connection ~ 1400 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5FEA234E
+P 1100 3500
+AR Path="/5FEA234E" Ref="#PWR?"  Part="1" 
+AR Path="/5FCFD0E2/5FEA234E" Ref="#PWR090"  Part="1" 
+AR Path="/5FE895CA/5FEA234E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR090" H 1100 3250 50  0001 C CNN
+F 1 "GND" H 1105 3327 50  0000 C CNN
+F 2 "" H 1100 3500 50  0001 C CNN
+F 3 "" H 1100 3500 50  0001 C CNN
+	1    1100 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3100 1100 3100
+Wire Wire Line
+	1100 3100 1100 3500
 $EndSCHEMATC

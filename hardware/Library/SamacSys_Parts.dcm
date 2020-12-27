@@ -1,81 +1,66 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP NE555DR
-D Single Precision Timer
-K
-F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$CMP 687124183622
+D Wurth Elektronik WR-FPC Series 0.5mm Pitch 24 Way Horizontal SMT Female FPC Connector, Top Contact
+F https://componentsearchengine.com/Datasheets/1/687124183622.pdf
+$ENDCMP
+#
+$CMP ABS05-32.768KHZ-T
+D ABRACON - ABS05-32.768KHZ-T - CRYSTAL, 32.768KHZ, 12.5PF, 1.6 X 1MM
 $ENDCMP
 #
 $CMP BQ24092DGQR
 D 1A, Single-Input, Single-Cell Li-Ion Battery Charger with Operation Over JEITA and 10k NTC
-K
 F http://www.ti.com/lit/gpn/BQ24092
 $ENDCMP
 #
 $CMP ESP32-D0WD-V3
 D WiFi Development Tools (802.11) SMD IC WiFi Dual Core BT Combo
-K
 F https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
-$ENDCMP
-#
-$CMP SHT31-ARP-B2.5kS
-D Board Mount Humidity Sensors +/- 2%RH 14 bit Resolution
-K
-F https://componentsearchengine.com/Datasheets/1/SHT31-ARP-B2.5kS.pdf
-$ENDCMP
-#
-$CMP LTR-329ALS-01
-D Ambient Light Sensors Ambient Light Photo Sensor
-K
-F 
-$ENDCMP
-#
-$CMP 687124183622
-D Wurth Elektronik WR-FPC Series 0.5mm Pitch 24 Way Horizontal SMT Female FPC Connector, Top Contact
-K
-F https://componentsearchengine.com/Datasheets/1/687124183622.pdf
-$ENDCMP
-#
-$CMP SML-D12Y1WT86
-D LED Yellow 100mcd SMT 1608(0603)
-K
-F https://componentsearchengine.com/Datasheets/1/SML-D12Y1WT86.pdf
-$ENDCMP
-#
-$CMP S2B-XH-A_LF__SN_
-D XH-2.5mm Header side entry 2 way JST XH Series, Series Number S2B, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A
-K
-F http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
-$ENDCMP
-#
-$CMP SI1308EDL-T1-BE3
-D MOSFET 30V N-CHANNEL (D-S)
-K
-F https://www.mouser.es/datasheet/2/427/si1308edl-1764588.pdf
-$ENDCMP
-#
-$CMP TPS62291DRVR
-D Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter
-K
-F https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63
-$ENDCMP
-#
-$CMP SHT30-DIS-B2.5KS
-D Humidity/Temperature Sensor Digital Serial (I2C) 8-Pin DFN EP T/R
-K
-F https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHT3x_DIS.pdf
 $ENDCMP
 #
 $CMP LPS22HDTR
 D Board Mount Pressure Sensors Piezoresistive absolute pressure sensor, 260-1260 hPa, digital output barometer, small and thin package
-K
 F https://www.st.com/resource/en/datasheet/lps22hd.pdf
 $ENDCMP
 #
-$CMP ABS05-32.768KHZ-T
-D ABRACON - ABS05-32.768KHZ-T - CRYSTAL, 32.768KHZ, 12.5PF, 1.6 X 1MM
-K
-F 
+$CMP LTR-329ALS-01
+D Ambient Light Sensors Ambient Light Photo Sensor
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP S2B-XH-A_LF__SN_
+D XH-2.5mm Header side entry 2 way JST XH Series, Series Number S2B, 2.5mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 3A
+F http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+$ENDCMP
+#
+$CMP SHT30-DIS-B2.5KS
+D Humidity/Temperature Sensor Digital Serial (I2C) 8-Pin DFN EP T/R
+F https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/HT_DS_SHT3x_DIS.pdf
+$ENDCMP
+#
+$CMP SHT31-ARP-B2.5kS
+D Board Mount Humidity Sensors +/- 2%RH 14 bit Resolution
+F https://componentsearchengine.com/Datasheets/1/SHT31-ARP-B2.5kS.pdf
+$ENDCMP
+#
+$CMP SI1308EDL-T1-BE3
+D MOSFET 30V N-CHANNEL (D-S)
+F https://www.mouser.es/datasheet/2/427/si1308edl-1764588.pdf
+$ENDCMP
+#
+$CMP SML-D12Y1WT86
+D LED Yellow 100mcd SMT 1608(0603)
+F https://componentsearchengine.com/Datasheets/1/SML-D12Y1WT86.pdf
+$ENDCMP
+#
+$CMP TPS62291DRVR
+D Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter
+F https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63
 $ENDCMP
 #
 #End Doc Library
