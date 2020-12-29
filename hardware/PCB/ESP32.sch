@@ -969,9 +969,9 @@ F 3 "~" H 9000 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 8350 2150 0    50   Input ~ 0
-ESP_UART_RTS
+UART_RTS
 Text HLabel 8350 1050 0    50   Input ~ 0
-ESP_UART_DTR
+UART_DTR
 Wire Wire Line
 	9150 1050 9250 1050
 Wire Wire Line
@@ -1305,4 +1305,28 @@ F 8 "ABS05-32.768KHZ-T" H 1950 6150 50  0001 L CNN "Manufacturer_Part_Number"
 	1    1300 6750
 	-1   0    0    -1  
 $EndComp
+Text HLabel 6600 1800 1    50   Input ~ 0
+UART_RX
+Text HLabel 6500 1800 1    50   Input ~ 0
+UART_TX
+Wire Wire Line
+	6500 1800 6500 1950
+Wire Wire Line
+	6600 1800 6600 1950
+Text HLabel 6400 1800 1    50   Input ~ 0
+BAT_PWR
+Wire Wire Line
+	6400 1950 6400 1800
+Text HLabel 7250 2850 2    50   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	7250 2850 7100 2850
+Text HLabel 6700 1800 1    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	6700 1800 6700 1950
+Text HLabel 7250 3050 2    50   Input ~ 0
+SEN_RST
+Wire Wire Line
+	7250 3050 7100 3050
 $EndSCHEMATC
