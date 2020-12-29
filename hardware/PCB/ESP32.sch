@@ -1329,4 +1329,28 @@ Text HLabel 7250 3050 2    50   Input ~ 0
 SEN_RST
 Wire Wire Line
 	7250 3050 7100 3050
+Text HLabel 6200 5000 3    50   Input ~ 0
+DISP_CLK
+Text HLabel 6300 5000 3    50   Input ~ 0
+DISP_CS
+Text HLabel 5900 5000 3    50   Input ~ 0
+DISP_SDI
+Text HLabel 6000 5000 3    50   Input ~ 0
+DISP_DC
+Text HLabel 5150 3950 0    50   Input ~ 0
+DISP_BS
+Text HLabel 5700 5000 3    50   Input ~ 0
+DISP_RES
+Wire Wire Line
+	5300 3950 5150 3950
+Wire Wire Line
+	5700 5000 5700 4850
+Wire Wire Line
+	5900 5000 5900 4850
+Wire Wire Line
+	6000 5000 6000 4850
+Wire Wire Line
+	6200 5000 6200 4850
+Wire Wire Line
+	6300 5000 6300 4850
 $EndSCHEMATC
