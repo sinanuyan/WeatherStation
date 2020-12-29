@@ -1,5 +1,3 @@
 (sym_lib_table
   (lib (name ProjectLibrary)(type Legacy)(uri ${KIPRJMOD}/../Library/SamacSys_Parts.lib)(options "")(descr ""))
-  (lib (name ABS05-32.768KHZ-T)(type Legacy)(uri C:/Users/sinan/Downloads/LIB_ABS05-32.768KHZ-T/ABS05-32.768KHZ-T/KiCad/ABS05-32.768KHZ-T.lib)(options "")(descr ""))
-  (lib (name TemperatureSensor-rescue)(type Legacy)(uri ${KIPRJMOD}/TemperatureSensor-rescue.lib)(options "")(descr ""))
 )
