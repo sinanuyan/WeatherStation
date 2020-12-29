@@ -5,10 +5,13 @@ D Wurth Elektronik WR-FPC Series 0.5mm Pitch 24 Way Horizontal SMT Female FPC Co
 F https://componentsearchengine.com/Datasheets/1/687124183622.pdf
 $ENDCMP
 #
+$CMP ABM11AIG-40.000MHZ-4-1Z-T
+D Crystals 4pF 40MHz 10ppm AEC-Q200 -40C +125C
+F https://componentsearchengine.com/Datasheets/1/ABM11AIG-40.000MHZ-4-1Z-T.pdf
+$ENDCMP
+#
 $CMP ABS05-32.768KHZ-T
 D ABRACON - ABS05-32.768KHZ-T - CRYSTAL, 32.768KHZ, 12.5PF, 1.6 X 1MM
-K
-F 
 $ENDCMP
 #
 $CMP BQ24092DGQR
@@ -19,6 +22,11 @@ $ENDCMP
 $CMP ESP32-D0WD-V3
 D WiFi Development Tools (802.11) SMD IC WiFi Dual Core BT Combo
 F https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+$ENDCMP
+#
+$CMP FT231XQ-R
+D FTDI Chip FT231XQ-R, USB Transceiver
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
 $ENDCMP
 #
 $CMP LPS22HDTR
@@ -33,6 +41,11 @@ $ENDCMP
 $CMP NE555DR
 D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PTS815_SJM_250_SMTR_LFS
+D Tactile Switches Tact Switch, 12 VDC, 50 mA, 4.2x3.2, 2.5mm H, 180gf, J leads
+F https://componentsearchengine.com/Datasheets/1/PTS815 SJM 250 SMTR LFS.pdf
 $ENDCMP
 #
 $CMP S2B-XH-A_LF__SN_
@@ -60,33 +73,14 @@ D LED Yellow 100mcd SMT 1608(0603)
 F https://componentsearchengine.com/Datasheets/1/SML-D12Y1WT86.pdf
 $ENDCMP
 #
-$CMP TPS62291DRVR
-D Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter
-F https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63
-$ENDCMP
-#
-$CMP ABM11AIG-40.000MHZ-4-1Z-T
-D Crystals 4pF 40MHz 10ppm AEC-Q200 -40C +125C
-K
-F https://componentsearchengine.com/Datasheets/1/ABM11AIG-40.000MHZ-4-1Z-T.pdf
-$ENDCMP
-#
-$CMP FT231XQ-R
-D FTDI Chip FT231XQ-R, USB Transceiver
-K
-F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
-$ENDCMP
-#
 $CMP SS8050-G
 D Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V
-K
 F http://www.comchiptech.com/admin/files/product/SS8050-G%20RevA181526.pdf
 $ENDCMP
 #
-$CMP PTS815_SJM_250_SMTR_LFS
-D Tactile Switches Tact Switch, 12 VDC, 50 mA, 4.2x3.2, 2.5mm H, 180gf, J leads
-K
-F https://componentsearchengine.com/Datasheets/1/PTS815 SJM 250 SMTR LFS.pdf
+$CMP TPS62291DRVR
+D Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter
+F https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63
 $ENDCMP
 #
 #End Doc Library
