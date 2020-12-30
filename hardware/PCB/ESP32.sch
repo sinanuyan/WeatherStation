@@ -1307,20 +1307,16 @@ F 8 "ABS05-32.768KHZ-T" H 1950 6150 50  0001 L CNN "Manufacturer_Part_Number"
 $EndComp
 Text HLabel 6600 1800 1    50   Input ~ 0
 UART_RX
-Text HLabel 6500 1800 1    50   Input ~ 0
+Text HLabel 6500 1800 1    50   Output ~ 0
 UART_TX
 Wire Wire Line
 	6500 1800 6500 1950
 Wire Wire Line
 	6600 1800 6600 1950
-Text HLabel 6400 1800 1    50   Input ~ 0
+Text HLabel 6400 1800 1    50   Output ~ 0
 BAT_PWR
 Wire Wire Line
 	6400 1950 6400 1800
-Text HLabel 7250 2850 2    50   Input ~ 0
-I2C_SCL
-Wire Wire Line
-	7250 2850 7100 2850
 Text HLabel 6700 1800 1    50   Input ~ 0
 I2C_SDA
 Wire Wire Line
@@ -1329,17 +1325,15 @@ Text HLabel 7250 3050 2    50   Input ~ 0
 SEN_RST
 Wire Wire Line
 	7250 3050 7100 3050
-Text HLabel 6200 5000 3    50   Input ~ 0
+Text HLabel 5900 5000 3    50   Output ~ 0
 DISP_CLK
-Text HLabel 6300 5000 3    50   Input ~ 0
+Text HLabel 6300 5000 3    50   Output ~ 0
 DISP_CS
-Text HLabel 5900 5000 3    50   Input ~ 0
-DISP_SDI
-Text HLabel 6000 5000 3    50   Input ~ 0
+Text HLabel 5800 5000 3    50   Output ~ 0
 DISP_DC
 Text HLabel 5150 3950 0    50   Input ~ 0
-DISP_BS
-Text HLabel 5700 5000 3    50   Input ~ 0
+DISP_BUSY
+Text HLabel 5700 5000 3    50   Output ~ 0
 DISP_RES
 Wire Wire Line
 	5300 3950 5150 3950
@@ -1353,4 +1347,20 @@ Wire Wire Line
 	6200 5000 6200 4850
 Wire Wire Line
 	6300 5000 6300 4850
+Wire Wire Line
+	7250 2850 7100 2850
+Text HLabel 7250 2850 2    50   Input ~ 0
+I2C_SCL
+Text HLabel 6200 5000 3    50   Output ~ 0
+DISP_SDI
+Wire Wire Line
+	5800 4850 5800 5000
+Text HLabel 7250 3950 2    50   Output ~ 0
+DISP_BS1
+Wire Wire Line
+	7250 3950 7100 3950
+Text HLabel 7250 3750 2    50   Input ~ 0
+DISP_TOUT1
+Wire Wire Line
+	7250 3750 7100 3750
 $EndSCHEMATC
