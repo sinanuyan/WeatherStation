@@ -83,4 +83,10 @@ D Voltage Regulators - Switching Regulators 2.25MHz 1A Step-Down Converter
 F https://componentsearchengine.com/ga/detail.html?searchString=TPS62291DRVR&manuf=Texas%20Instruments&country=US&language=en&source=63
 $ENDCMP
 #
+$CMP APTF1616LSEEZGKQBKC
+D Standard LEDs - SMD 1.6x1.6MM LOW CU RGB SMD
+K
+F https://componentsearchengine.com/Datasheets/1/APTF1616LSEEZGKQBKC.pdf
+$ENDCMP
+#
 #End Doc Library
