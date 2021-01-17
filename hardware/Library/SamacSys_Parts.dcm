@@ -89,4 +89,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/APTF1616LSEEZGKQBKC.pdf
 $ENDCMP
 #
+$CMP CONUFL001-SMD-T
+D RF Connectors / Coaxial Connectors T&R U.FL Straight Surface Mount Jack
+K
+F https://linxtechnologies.com/wp/product/mhf-rf-connectors/
+$ENDCMP
+#
 #End Doc Library
