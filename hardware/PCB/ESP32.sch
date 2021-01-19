@@ -1386,7 +1386,7 @@ U 1 1 60084B4A
 P 2150 4750
 F 0 "R25" H 2220 4796 50  0000 L CNN
 F 1 "910" H 2220 4705 50  0000 L CNN
-F 2 "" V 2080 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2080 4750 50  0001 C CNN
 F 3 "~" H 2150 4750 50  0001 C CNN
 	1    2150 4750
 	1    0    0    -1  
@@ -1397,7 +1397,7 @@ U 1 1 600858BD
 P 2450 4750
 F 0 "R26" H 2520 4796 50  0000 L CNN
 F 1 "475" H 2520 4705 50  0000 L CNN
-F 2 "" V 2380 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 4750 50  0001 C CNN
 F 3 "~" H 2450 4750 50  0001 C CNN
 	1    2450 4750
 	1    0    0    -1  
@@ -1408,7 +1408,7 @@ U 1 1 600865E9
 P 4750 4750
 F 0 "R27" H 4820 4796 50  0000 L CNN
 F 1 "475" H 4820 4705 50  0000 L CNN
-F 2 "" V 4680 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 4750 50  0001 C CNN
 F 3 "~" H 4750 4750 50  0001 C CNN
 	1    4750 4750
 	1    0    0    -1  
@@ -1485,23 +1485,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 2000 2500 2750
 $Comp
-L ProjectLibrary:CONUFL001-SMD-T J4
-U 1 1 6006EF78
-P 1750 2000
-F 0 "J4" H 2300 2265 50  0000 C CNN
-F 1 "CONUFL001-SMD-T" H 2300 2174 50  0000 C CNN
-F 2 "ProjectFootprints:CONUFL001-SMD" H 2700 2100 50  0001 L CNN
-F 3 "https://linxtechnologies.com/wp/product/mhf-rf-connectors/" H 2700 2000 50  0001 L CNN
-F 4 "RF Connectors / Coaxial Connectors T&R U.FL Straight Surface Mount Jack" H 2700 1900 50  0001 L CNN "Description"
-F 5 "" H 2700 1800 50  0001 L CNN "Height"
-F 6 "712-CONUFL001-SMD-T" H 2700 1700 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONUFL001-SMD-T/?qs=EU6FO9ffTwfRdkBeQTdJWQ%3D%3D" H 2700 1600 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Linx Technologies" H 2700 1500 50  0001 L CNN "Manufacturer_Name"
-F 9 "CONUFL001-SMD-T" H 2700 1400 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1750 2000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0103
 U 1 1 600794DD
 P 600 2250
@@ -1523,4 +1506,21 @@ Wire Wire Line
 	600  2100 600  2000
 Wire Wire Line
 	1750 2000 1900 2000
+$Comp
+L ProjectLibrary:CONUFL001-SMD-T J4
+U 1 1 6006EF78
+P 1750 2000
+F 0 "J4" H 2300 2265 50  0000 C CNN
+F 1 "CONUFL001-SMD-T" H 2300 2174 50  0000 C CNN
+F 2 "ProjectFootprints:CONUFL001-SMD" H 2700 2100 50  0001 L CNN
+F 3 "https://linxtechnologies.com/wp/product/mhf-rf-connectors/" H 2700 2000 50  0001 L CNN
+F 4 "RF Connectors / Coaxial Connectors T&R U.FL Straight Surface Mount Jack" H 2700 1900 50  0001 L CNN "Description"
+F 5 "" H 2700 1800 50  0001 L CNN "Height"
+F 6 "712-CONUFL001-SMD-T" H 2700 1700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Linx-Technologies/CONUFL001-SMD-T/?qs=EU6FO9ffTwfRdkBeQTdJWQ%3D%3D" H 2700 1600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Linx Technologies" H 2700 1500 50  0001 L CNN "Manufacturer_Name"
+F 9 "CONUFL001-SMD-T" H 2700 1400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1750 2000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

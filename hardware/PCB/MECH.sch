@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5FE895CA/5FE949B7" Ref="H1"  Part="1"
 AR Path="/5FE9624E/5FE949B7" Ref="H?"  Part="1" 
 F 0 "H1" H 1100 1099 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1100 1008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1000 1050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1000 1050 50  0001 C CNN
 F 3 "~" H 1000 1050 50  0001 C CNN
 	1    1000 1050
 	1    0    0    -1  
@@ -36,7 +36,7 @@ AR Path="/5FE895CA/5FE949BD" Ref="H3"  Part="1"
 AR Path="/5FE9624E/5FE949BD" Ref="H?"  Part="1" 
 F 0 "H3" H 2100 1099 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2100 1008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2000 1050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 2000 1050 50  0001 C CNN
 F 3 "~" H 2000 1050 50  0001 C CNN
 	1    2000 1050
 	1    0    0    -1  
@@ -50,7 +50,7 @@ AR Path="/5FE895CA/5FE949C3" Ref="H4"  Part="1"
 AR Path="/5FE9624E/5FE949C3" Ref="H?"  Part="1" 
 F 0 "H4" H 1900 1407 50  0000 R CNN
 F 1 "MountingHole_Pad" H 1900 1498 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2000 1450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 2000 1450 50  0001 C CNN
 F 3 "~" H 2000 1450 50  0001 C CNN
 	1    2000 1450
 	-1   0    0    1   
@@ -64,7 +64,7 @@ AR Path="/5FE895CA/5FE949C9" Ref="H2"  Part="1"
 AR Path="/5FE9624E/5FE949C9" Ref="H?"  Part="1" 
 F 0 "H2" H 900 1407 50  0000 R CNN
 F 1 "MountingHole_Pad" H 900 1498 50  0000 R CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1000 1450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1000 1450 50  0001 C CNN
 F 3 "~" H 1000 1450 50  0001 C CNN
 	1    1000 1450
 	-1   0    0    1   
