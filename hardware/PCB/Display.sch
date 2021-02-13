@@ -656,7 +656,7 @@ PREVGL
 Wire Wire Line
 	2300 4800 2700 4800
 Text GLabel 2700 4600 2    50   Output ~ 0
-PREVGL
+PREVGH
 Wire Wire Line
 	2300 4600 2700 4600
 Wire Wire Line

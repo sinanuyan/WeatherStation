@@ -174,22 +174,6 @@ Wire Wire Line
 	5800 2800 5800 3200
 Connection ~ 5800 3200
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5FE9F1D4
-P 5800 2700
-AR Path="/5FE9F1D4" Ref="#PWR?"  Part="1" 
-AR Path="/5FE9624E/5FE9F1D4" Ref="#PWR081"  Part="1" 
-F 0 "#PWR081" H 5800 2550 50  0001 C CNN
-F 1 "+3V3" H 5815 2873 50  0000 C CNN
-F 2 "" H 5800 2700 50  0001 C CNN
-F 3 "" H 5800 2700 50  0001 C CNN
-	1    5800 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 2700 5800 2800
-Connection ~ 5800 2800
-$Comp
 L Device:C C?
 U 1 1 5FE9F1DC
 P 4650 3050
@@ -410,4 +394,20 @@ Wire Wire Line
 	6600 4000 6800 4000
 Wire Wire Line
 	6600 4200 6800 4200
+Connection ~ 5800 2800
+Wire Wire Line
+	5800 2700 5800 2800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FE9F1D4
+P 5800 2700
+AR Path="/5FE9F1D4" Ref="#PWR?"  Part="1" 
+AR Path="/5FE9624E/5FE9F1D4" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 5800 2550 50  0001 C CNN
+F 1 "+3V3" H 5815 2873 50  0000 C CNN
+F 2 "" H 5800 2700 50  0001 C CNN
+F 3 "" H 5800 2700 50  0001 C CNN
+	1    5800 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
